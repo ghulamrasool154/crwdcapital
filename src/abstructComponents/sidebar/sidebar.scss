@@ -1,0 +1,48 @@
+.sidebar {
+  ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    li {
+      margin: 20px 0;
+    }
+  }
+
+  .questionsection {
+    background-image: url("../../assets/images/bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    border-radius: 5px 5px 5px 5px;
+
+    .background-overlay {
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 40px 40px 40px 40px;
+      border: 1px solid #ffffff17;
+
+      color: #d1d1d1;
+      text-align: center;
+      h1 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 15px;
+      }
+      .inputFiled {
+        background-color: white;
+        color: black;
+        margin-bottom: 10px;
+      }
+      .custombutton {
+        button {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .sidebar {
+    padding: 30px 0;
+  }
+}

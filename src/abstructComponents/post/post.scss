@@ -1,0 +1,49 @@
+.post {
+  .imgthumb {
+    .thumbnail-container {
+      width: 100%;
+      border-radius: 5px;
+      overflow: hidden;
+      position: relative;
+      .catagory {
+        margin: 15px 0px 0px 0px;
+        padding: 10px 15px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #00cfe5;
+        color: white;
+      }
+    }
+  }
+  .context {
+    padding: 20px 0;
+    h1 {
+      color: #d1d1d1;
+      font-size: 24px;
+      text-transform: capitalize;
+      line-height: 30px;
+    }
+    p {
+      color: #d1d1d1;
+      font-size: 16px;
+      line-height: 20px;
+      margin: 20px 0;
+    }
+
+    p.readmore {
+      color: #00cfe5;
+      cursor: pointer;
+      text-transform: capitalize;
+      span {
+        svg {
+          font-size: 25px;
+        }
+      }
+    }
+    a {
+      color: #00cfe5;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.servicesbox {
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #ffffff17;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 0 10px 0 0;
+  margin-bottom: 25px;
+
+  padding: 30px 25px 30px 25px;
+  background-image: radial-gradient(at top left, #393939 0%, #1b1b1b 47%);
+  border-radius: 10px 10px 10px 10px;
+  .icon {
+    margin: 0px 0px 5px 0px;
+    svg {
+      font-size: 50px;
+      fill: #00cfe5;
+    }
+  }
+  .box-body {
+    .title {
+      font-size: 24px;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      color: white;
+      font-weight: 600;
+    }
+    .description {
+      color: #d1d1d1;
+    }
+  }
+  .icon-box-btn {
+    font-size: 15px;
+    color: #00cfe5;
+    cursor: pointer;
+    span {
+      svg {
+        font-size: 25px;
+      }
+    }
+  }
+}

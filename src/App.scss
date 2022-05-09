@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+h1,
+h2 {
+  font-family: NeueHaasMedium;
+}
+// li,
+p,
+b {
+  font-family: NeueHaasRoman;
+
+  font-weight: normal;
+}
+.boldfont {
+  font-family: Neuropol_X_Bold;
+}
+.lightfont {
+  font-family: Neuropol_X_Light;
+}
+.NeueHaas {
+  font-family: NeueHaas;
+}
+
+//  equalpadding all section
+.newletter,
+.Singlenew,
+.googlemap,
+.getaquote,
+.OurTeams,
+.OurServices,
+.FinancialNeeds,
+.faq,
+.compunies,
+.ClientReview,
+.news,
+.aboutcompany {
+  padding: 100px 0px 100px 0px;
+}
+
+@media screen and (max-width: 1200px) {
+  .newletter,
+  .Singlenew,
+  .googlemap,
+  .getaquote,
+  .OurTeams,
+  .OurServices,
+  .FinancialNeeds,
+  .faq,
+  .compunies,
+  .ClientReview,
+  .news,
+  .aboutcompany {
+    padding: 80px 0px 80px 0px;
+  }
+}
+@media screen and (max-width: 993px) {
+  .newletter,
+  .Singlenew,
+  .googlemap,
+  .getaquote,
+  .OurTeams,
+  .OurServices,
+  .FinancialNeeds,
+  .faq,
+  .compunies,
+  .ClientReview,
+  .news,
+  .aboutcompany {
+    padding: 50px 0px 50px 0px;
+  }
+}

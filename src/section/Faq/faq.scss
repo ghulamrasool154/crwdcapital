@@ -1,0 +1,21 @@
+.faq {
+  // padding: 100px 0px 150px 0px;
+  background-color: #0c0c0c;
+
+  .leftside {
+    .title {
+      br {
+        display: none;
+      }
+    }
+
+    p {
+      text-align: start;
+      color: #d1d1d1;
+      font-family: NeueHaasRoman;
+
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+}

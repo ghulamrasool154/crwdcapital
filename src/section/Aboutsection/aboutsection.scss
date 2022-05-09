@@ -1,0 +1,84 @@
+.aboutcompany {
+  background-color: #0c0c0c;
+  position: relative;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  // padding: 100px 0px 100px 0px;
+
+  .leftside {
+    .about {
+      width: 100%;
+      position: relative;
+
+      .boxexperience {
+        // position: absolute;
+        text-align: center;
+        background-color: #ffffff;
+        padding: 5px 10px 10px 10px;
+        border: 1px solid #ffffff5e;
+        border-radius: 5px;
+        max-width: 180px;
+        width: 100%;
+        position: absolute;
+        bottom: 20px;
+        right: 80px;
+
+        // height: 180px;
+
+        h1 {
+          color: #000000;
+          font-size: 24px;
+          padding-top: 5px;
+          span {
+            color: #00cfe5;
+            font-size: 20px;
+          }
+        }
+        span.icon {
+          svg {
+            fill: #00cfe5;
+            font-size: 60px;
+          }
+        }
+      }
+    }
+  }
+
+  .rightside {
+    .title {
+      br {
+        display: none;
+      }
+    }
+
+    ul.list {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      list-style: none;
+      width: 100%;
+      li {
+        width: 50%;
+        color: #d1d1d1;
+        font-family: NeueHaasRoman;
+
+        span {
+          svg {
+            fill: #00cfe5;
+            font-size: 25px;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+    button {
+      font-size: 16px;
+      font-weight: 400;
+      fill: #ffffff;
+      color: #ffffff;
+      background-color: transparent;
+      background-image: radial-gradient(at top left, #00cfe5 0%, #00cfe5 50%);
+      border-radius: 5px 5px 5px 5px;
+      padding: 11px 33px 11px 33px;
+    }
+  }
+}

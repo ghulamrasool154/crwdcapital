@@ -1,0 +1,172 @@
+.Home {
+  background-color: #0c0c0c;
+
+  .herosection {
+    background-image: radial-gradient(at top left, #252525 0%, #0c0c0c 52%);
+    margin-top: -140px;
+
+    .backgroundoverlay {
+      background-image: url("../../assets/images/bg-color.png");
+      background-position: 64vw 0px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 130px 0px 90px;
+
+      // opacity: 1;
+      // transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+      // height: 100%;
+      // width: 100%;
+      // top: 0;
+      // left: 0;
+      // position: absolute;
+
+      .forcontext {
+        display: flex;
+        align-items: center;
+      }
+      .leftside {
+        padding: 40px 0px 0px 0px;
+
+        .count {
+          display: flex;
+          justify-content: space-around;
+          margin-bottom: 40px;
+          .content {
+            h2 {
+              font-size: 42px;
+              color: #00cfe5;
+            }
+            b {
+              color: #d1d1d1;
+              font-weight: 400;
+            }
+          }
+        }
+        .learnmore {
+          button {
+            font-size: 16px;
+            font-weight: 400;
+            fill: #ffffff;
+            color: #ffffff;
+            background-color: transparent;
+            background-image: radial-gradient(
+              at top left,
+              #00cfe5 0%,
+              #00cfe5 50%
+            );
+            border-radius: 5px 5px 5px 5px;
+            padding: 11px 33px 11px 33px;
+          }
+        }
+      }
+
+      .rightside {
+        .image {
+          width: 80%;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  // image section
+
+  // .compunies {
+  //   padding: 100px 0px 40px 0px;
+
+  //   .imagediv {
+  //     text-align: center;
+  //     img {
+  //       width: 50%;
+  //       filter: brightness(100%) contrast(23%) saturate(0%) blur(0px)
+  //         hue-rotate(0deg);
+  //     }
+  //   }
+  // }
+
+  // FinancialNeeds
+
+  // About Us home page
+
+  //   WhyChooseUs
+
+  //OurServices
+
+  // faq
+
+  //
+
+  // responsive
+
+  @media screen and (max-width: 993px) {
+    .herosection {
+      .backgroundoverlay {
+        background-image: none;
+      }
+    }
+
+    .DownloadNow {
+      .container-fluid {
+        .downloadimg {
+          margin: 0 0 0 0;
+        }
+      }
+    }
+    //
+  }
+
+  @media screen and (max-width: 768px) {
+    .herosection {
+      .leftside {
+        text-align: center;
+        .count {
+          flex-direction: column;
+          text-align: center;
+        }
+        .learnmore {
+          text-align: center;
+        }
+      }
+    }
+    .aboutcompany {
+      text-align: center;
+      .leftside {
+        .about {
+          .boxexperience {
+            display: none;
+          }
+        }
+      }
+    }
+    .WhyChooseUs {
+      // text-align: center;
+      .container-fluid {
+        .contextside {
+          .progressbarsection {
+            width: 100%;
+            max-width: 100%;
+          }
+        }
+      }
+    }
+    .faq {
+      .leftside {
+        text-align: center;
+      }
+    }
+    .DownloadNow {
+      text-align: center;
+      margin: auto;
+
+      .container-fluid {
+        .rightisde {
+          .stores {
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}

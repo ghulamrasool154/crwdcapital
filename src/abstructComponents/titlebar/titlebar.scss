@@ -1,0 +1,40 @@
+.Titlebar {
+  background-image: radial-gradient(at top left, #252525 0%, #0c0c0c 52%);
+  margin-top: -140px;
+
+  .overlay {
+    background-image: url("../../assets/images/bg-color.png");
+    background-position: 64vw 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px 0px 90px;
+
+    .title {
+      font-weight: 400;
+      font-size: 50px;
+      line-height: 60px;
+      color: white;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      font-family: Neuropol_X_Light;
+
+      span {
+        color: #00cfe5;
+      }
+    }
+
+    .para {
+      color: #d1d1d1;
+      font-family: NeueHaasRoman;
+
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+
+  @media screen and (max-width: 993px) {
+    .overlay {
+      background-image: none;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.header {
+  color: white;
+  background-image: url("../../assets/images/bg.jpg");
+  background-size: cover;
+  background-position: center center;
+
+  .transparant-color {
+    padding: 12px 0px 50px 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    .right {
+      button {
+        font-size: 16px;
+        font-weight: 400;
+        fill: #ffffff;
+        color: #ffffff;
+        background-color: transparent;
+        background-image: radial-gradient(at top left, #444444 0%, #000000 50%);
+        border-radius: 5px 5px 5px 5px;
+        padding: 11px 35px 11px 35px;
+        text-transform: capitalize;
+      }
+    }
+
+    .container.mobile-menu {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 993px) {
+    .right {
+      display: none;
+    }
+
+    .disktop-menu {
+      display: none;
+    }
+    .container.mobile-menu {
+      display: block !important;
+      .navbar {
+        .navbar-collapse {
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: black;
+          width: 70%;
+          height: 100vh;
+          padding: 150px 0px;
+        }
+      }
+    }
+  }
+}

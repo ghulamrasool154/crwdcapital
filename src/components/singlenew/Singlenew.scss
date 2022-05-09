@@ -1,0 +1,149 @@
+.Singlenew {
+  // padding: 80px 0;
+  background-color: #0c0c0c;
+
+  .container {
+    .row {
+      .custom-width-70 {
+        width: 70%;
+      }
+      .custom-width-30 {
+        width: 30%;
+      }
+    }
+  }
+
+  h1.title {
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 60px;
+    font-family: "Neuropolxlight";
+  }
+
+  .aboutuserdetails {
+    padding: 20px 0px;
+    span.icon {
+      display: inline-block;
+      color: #d1d1d1;
+      svg {
+        color: #00cfe5;
+      }
+      span.title {
+        padding: 0 25px;
+      }
+    }
+  }
+  .posterimg {
+    img {
+      border-radius: 5px;
+      width: 100%;
+    }
+  }
+  p {
+    color: #d1d1d1;
+    padding: 20px 0;
+  }
+  h5 {
+    color: #d1d1d1;
+    font-size: 24px;
+  }
+
+  .Pandemic {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    .cover {
+      img {
+        width: 100%;
+        border-radius: 5px;
+      }
+    }
+    .cover1 {
+      padding: 0 20px 0 0px;
+    }
+  }
+
+  .tagsandshare {
+    display: flex;
+    justify-content: space-between;
+    b {
+      color: #d1d1d1;
+      .tags {
+        padding-left: 5px;
+        font-weight: normal;
+        color: #00cfe5;
+        cursor: pointer;
+
+        &:hover {
+          color: #d1d1d1;
+        }
+      }
+    }
+
+    .share {
+      .icon {
+        width: 40px;
+        display: inline-flex;
+        height: 40px;
+        justify-content: center;
+        svg {
+          cursor: pointer;
+          color: #00cfe5;
+          &:hover {
+            color: #d1d1d1;
+          }
+        }
+      }
+    }
+  }
+
+  hr.line {
+    height: 0;
+    border: 1px solid #ededed1c;
+    margin: 30px 0px;
+  }
+
+  .from {
+    .comment-reply-title {
+      color: #d1d1d1;
+      font-family: "Neuropolxlight";
+    }
+
+    p {
+      margin: 0;
+      color: #00cfe5;
+    }
+    textarea.comment {
+      font-size: 16px;
+      font-weight: 300;
+      color: #565656;
+      background-color: #02010100;
+      border-radius: 5px;
+      width: 100%;
+      border: 1px solid #292929;
+      padding: 0.5rem 1rem;
+      resize: none;
+      height: 200px;
+      margin: 30px 0;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .Pandemic {
+      flex-direction: column;
+
+      .cover1 {
+        padding: 0;
+        margin-bottom: 10px;
+      }
+    }
+
+    h1.title {
+      font-size: 40px;
+      line-height: 50px;
+    }
+  }
+}

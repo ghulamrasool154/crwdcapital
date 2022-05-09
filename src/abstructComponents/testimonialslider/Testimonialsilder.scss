@@ -1,0 +1,58 @@
+.slick-prev {
+  display: none;
+}
+.slider {
+  .slick-slider {
+    button.slick-arrow.slick-prev,
+    button.slick-arrow.slick-next {
+      display: none !important;
+    }
+  }
+}
+.TestimonialSlider {
+  background-color: #0c0c0c;
+  padding: 30px 30px 30px 30px;
+  border-radius: 5px;
+  margin: 0 10px;
+  .comment-content {
+    p {
+      color: #c3bbbb;
+    }
+  }
+  .comment-bio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+    .bio-details {
+      display: flex;
+      align-items: center;
+      .profile-image {
+        width: 80px;
+        img {
+          width: 100%;
+          border-radius: 50%;
+        }
+      }
+      .profile-info {
+        margin-left: 20px;
+        strong.profile-name {
+          font-size: 20px;
+          color: white;
+        }
+
+        p.profile-des {
+          color: #c3bbbb;
+          font-size: 15px;
+        }
+      }
+    }
+    .icon-content {
+      svg {
+        font-size: 60px;
+        color: #00cfe5;
+      }
+    }
+  }
+}

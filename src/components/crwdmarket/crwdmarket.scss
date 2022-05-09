@@ -1,0 +1,111 @@
+.crwdmarket {
+  background-color: #0c0c0c;
+
+  .hotdeals,
+  .branddeals {
+    .Titlediscription {
+      .title {
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+  .hotdeals {
+    h2 {
+      color: #ffffff;
+      font-size: 24px;
+    }
+    p {
+      color: #00cfe5;
+      cursor: pointer;
+      display: inline;
+      text-transform: capitalize;
+    }
+    .leftside {
+      background-image: url("../../assets/images/wireless-on-ear-headphones-on-black-background.jpg");
+      background-position: top center;
+      background-size: cover;
+      .backcolor {
+        padding: 40px 40px 40px 40px;
+        background-color: #0000008c;
+      }
+    }
+    .rightside {
+      background-image: url("../../assets/images/credit-card-banking-budget-concept.jpg");
+      background-position: top center;
+      background-size: cover;
+      .backcolor {
+        padding: 40px 40px 40px 40px;
+        background-image: linear-gradient(180deg, #21212136 0%, #000000 100%);
+      }
+    }
+  }
+  .branddeals {
+    padding: 50px 0px 160px 0px;
+
+    h2 {
+      color: #ffffff;
+      font-size: 24px;
+    }
+    p {
+      color: #00cfe5;
+      cursor: pointer;
+      display: inline;
+      text-transform: capitalize;
+    }
+    .leftside {
+      background-image: url("../../assets/images/left.jpg");
+      background-position: center center;
+      background-size: cover;
+      border-radius: 5px;
+      .backcolor {
+        padding: 40px 40px 40px 40px;
+        background-color: #0000003d;
+      }
+    }
+    .centerside {
+      background-image: url("../../assets/images/center.jpg");
+      background-position: center center;
+      background-size: cover;
+      border-radius: 5px;
+
+      .backcolor {
+        padding: 40px 40px 40px 40px;
+        background-color: #0000003d;
+      }
+    }
+    .rightside {
+      background-image: url("../../assets/images/right.jpg");
+      background-position: center center;
+      background-size: cover;
+      border-radius: 5px;
+
+      .backcolor {
+        padding: 40px 40px 40px 40px;
+        background-color: #0000003d;
+      }
+    }
+  }
+
+  //
+  @media screen and (max-width: 993px) {
+    .hotdeals {
+      .leftside {
+        margin-bottom: 20px;
+      }
+    }
+    .branddeals {
+      .centerside {
+        margin: 40px 0;
+      }
+    }
+    .DownloadNow {
+      .container-fluid {
+        .downloadimg {
+          margin: -150px 0 0 0;
+        }
+      }
+    }
+  }
+}

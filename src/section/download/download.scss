@@ -1,0 +1,32 @@
+.DownloadNow {
+  background-image: url("../../assets/images/bg.jpg");
+  background-position: center center;
+  background-size: cover;
+
+  .container-fluid {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 80px 0px 80px 0px;
+
+    .downloadimg {
+      margin: -150px 0px -150px 0px;
+    }
+    .rightisde {
+      padding-top: 20px;
+      .title {
+        br {
+          display: none;
+        }
+      }
+
+      .stores {
+        display: flex;
+      }
+    }
+  }
+
+  @media screen and (max-width: 993px) {
+    .container-fluid {
+      padding: 50px 0px 50px 0px;
+    }
+  }
+}

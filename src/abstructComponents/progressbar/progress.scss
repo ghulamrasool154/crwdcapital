@@ -1,0 +1,36 @@
+.progress-skill-bar {
+  margin: 0px 0px 30px 0px;
+  .skill-bar-content {
+    .skill-title {
+      color: #ffffff;
+      font-weight: 400;
+      font-size: 20px;
+      font-family: NeueHaasRoman;
+    }
+  }
+  .skill-bar {
+    background-color: #e0e0e0;
+    height: 10px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px 0px 0px 0px;
+    .skill-track {
+      background-color: #00cfe5;
+      border-radius: 5px;
+      display: block;
+      height: 100%;
+      overflow: visible !important;
+      position: relative;
+
+      .number-percentage-wrapper {
+        position: absolute;
+        right: 0;
+        top: -33px;
+        z-index: 1;
+        .number-percentage {
+          color: #ffffff;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

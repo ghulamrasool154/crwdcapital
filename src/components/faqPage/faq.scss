@@ -1,0 +1,30 @@
+.FAQ {
+  background-color: #0c0c0c;
+
+  .faq {
+    // padding: 100px 0px 80px 0px;
+  }
+  .paymentmenthod {
+    padding: 40px 0px 150px 0px;
+    .Titlediscription {
+      .title {
+        br {
+          display: none;
+        }
+      }
+    }
+    p {
+      color: rgb(160, 160, 160);
+    }
+  }
+
+  .getstated {
+    background-image: url("../../assets/images/bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    .container-fluid {
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 150px 0px 150px 0px;
+    }
+  }
+}

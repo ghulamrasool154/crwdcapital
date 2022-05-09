@@ -1,0 +1,12 @@
+.logoname {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  span.boldfont {
+    font-size: 35px;
+  }
+
+  &:hover {
+    color: #00cfe5;
+  }
+}
