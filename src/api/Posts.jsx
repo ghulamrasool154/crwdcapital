@@ -54,7 +54,7 @@ export const Posts = [
         slug: 'Singtel_to_team_up_with_Grab_for_Singapore_digital_bank',
         disc: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa....',
         catagory: 'Update',
-        img: img5
+        img: img6
     },
 
 ]

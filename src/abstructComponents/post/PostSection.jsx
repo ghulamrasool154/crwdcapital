@@ -1,10 +1,9 @@
 import React from 'react'
 import './post.scss'
 import { BsArrowRightShort } from "react-icons/bs";
-import { NavLink, useParams } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 const PostSection = (props) => {
 
-    const { id } = useParams();
     return (
         <div className="col-lg-4 col-md-6">
             <article className='post'>

@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './RecentPostCart.scss'
 
 import { BsFillClockFill } from "react-icons/bs";
 
 import { Posts } from '../../api/Posts';
-import { NavLink, useParams } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 const RecentPostCart = () => {
 
 
