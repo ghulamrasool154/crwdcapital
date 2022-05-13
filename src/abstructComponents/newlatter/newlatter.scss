@@ -29,11 +29,29 @@
         outline: none;
       }
     }
-    button {
-      flex: 0 0 140px;
-      height: 100%;
-      border-radius: 0 10px 10px 0;
-      border: none;
+    .custombutton button {
+      border-radius: 0 5px 5px 0;
+      padding: 14px 33px 14px 33px;
+    }
+  }
+  @media screen and (max-width: 993px) {
+    .container {
+      .row {
+        padding: 40px 0;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .emailform {
+      flex-direction: column;
+      input {
+        border-radius: 5px;
+        margin-bottom: 15px;
+      }
+      .custombutton button {
+        border-radius: 5px 5px 5px 5px;
+        padding: 11px 33px 11px 33px;
+      }
     }
   }
 }

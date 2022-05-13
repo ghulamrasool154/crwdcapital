@@ -10,4 +10,10 @@
     border: 1px solid #00cfe5;
     // font-family: Neuropolxlight;
   }
+
+  @media screen and (max-width: 993px) {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
 }

@@ -20,13 +20,29 @@
 
       .stores {
         display: flex;
+
+        img {
+          width: 150px !important;
+          max-width: 100%;
+          &:hover {
+            transform: translateY(-8px);
+            transition-duration: 0.3s;
+            transition-property: transform;
+            transition-timing-function: ease-out;
+          }
+        }
       }
     }
   }
 
   @media screen and (max-width: 993px) {
     .container-fluid {
-      padding: 50px 0px 50px 0px;
+      padding: 40px 0px 40px 0px;
+      .rightisde {
+        .stores {
+          justify-content: center;
+        }
+      }
     }
   }
 }

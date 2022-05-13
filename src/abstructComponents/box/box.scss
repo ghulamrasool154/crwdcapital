@@ -59,9 +59,13 @@
         font-size: 15px;
         color: #ffffff;
         padding-left: 10px;
-        svg {
-          fill: #00cfe5;
+        i {
+          color: white;
           font-size: 25px;
+          cursor: pointer;
+          &:hover {
+            color: #00cfe5;
+          }
         }
       }
     }
@@ -70,7 +74,7 @@
 @media screen and (max-width: 993px) {
   .box {
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     .context {
       justify-content: center;
       .text {

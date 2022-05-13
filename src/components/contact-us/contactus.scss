@@ -102,7 +102,6 @@
 
   @media screen and (max-width: 993px) {
     .getaquote {
-      padding: 0;
       .rightside {
         text-align: center;
         padding: 30px;
@@ -113,6 +112,9 @@
           text-align: start;
         }
       }
+      .leavemessage {
+        text-align: center;
+      }
     }
   }
   @media screen and (max-width: 600px) {
@@ -120,6 +122,16 @@
       form {
         .inputFormDiv {
           width: 100%;
+        }
+      }
+      .rightside {
+        text-align: center;
+        padding: 30px 30px 0 30px;
+      }
+      .social-media {
+        flex-direction: column;
+        .social-link {
+          justify-content: center;
         }
       }
     }

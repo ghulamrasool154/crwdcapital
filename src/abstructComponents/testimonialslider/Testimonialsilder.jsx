@@ -7,7 +7,6 @@ import "slick-carousel/slick/slick-theme.css";
 import CarsoulSlider from "react-slick";
 import { TestimonialData } from '../../api/TestimonialData';
 
-import { BsFillChatQuoteFill } from "react-icons/bs";
 const Testimonialsilder = () => {
 
 
@@ -26,7 +25,7 @@ const Testimonialsilder = () => {
                 },
             },
             {
-                breakpoint: 600,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -55,7 +54,7 @@ const Testimonialsilder = () => {
                                         </span>
                                     </div>
                                     <div className="icon-content">
-                                        <BsFillChatQuoteFill />
+                                        <i className="fa-solid fa-quote-right"></i>
                                     </div>
                                 </div>
 

@@ -6,7 +6,7 @@ import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
 const Teamcard = (props) => {
     return (
         <>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6 col-sm-12">
 
                 <div className="teamcart">
                     <div className="fortend">

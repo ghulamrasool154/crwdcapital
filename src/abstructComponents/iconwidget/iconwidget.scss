@@ -1,3 +1,6 @@
+.IconwidgetBOX {
+  display: inline-block;
+}
 .Iconwidget {
   margin: 0px 0px 30px 0px;
   padding: 7px 12px 7px 12px;
@@ -23,6 +26,16 @@
     font-size: 14px;
     color: #d1d1d1;
     padding-left: 10px;
-    font-family: NeueHaasMedium;
+    font-family: "NeueHaasRoman";
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .IconwidgetBOX {
+    display: flex;
+    justify-content: center;
+  }
+  .Iconwidget {
+    margin: 0px 0px 15px 0px;
   }
 }

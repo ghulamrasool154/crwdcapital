@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './home.scss'
 
 import iphone from '../../assets/images/home-iphone12.png'
@@ -19,16 +19,25 @@ import Compunies from '../../section/compunies/Compunies'
 import Download from '../../section/download/Download'
 import TitleDynmic from '../../abstructComponents/titleDynamic/TitleDynmic';
 
+
+import data from '../../components/propssdata/Data.json'
+import Count from '../../components/propssdata/Count';
+
 const Home = () => {
 
-    const [singlepost, setsinglpost] = useState(Posts);
 
-    const slicingpost = singlepost.slice(0, 3);
+    const slicingpost = Posts.slice(0, 3);
+
+
+
+
     return (
+
 
         <>
             <TitleDynmic title='Home' />
             <div className='Home'>
+
 
                 <section className='herosection'>
                     <div className='backgroundoverlay'>
@@ -42,35 +51,33 @@ const Home = () => {
                                             <Titlediscription title='The Only Professionals & ' span='Secure Digital Bank' para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." />
 
                                         </div>
-
-
                                         <div className='count'>
-                                            <div className="content">
-                                                <h2>789 M</h2>
-                                                <b >Downloaded App</b>
-                                            </div>
+                                            {data.counts.map(count => <Count
+                                                key={count.id} data={count} />)}
+                                            {
+                                                data.counts.map((value) => {
+                                                    <div className="content">
+                                                        <h2><span className='value'>{value.number} </span> M</h2>
+                                                        <b >Downloaded App</b>
+                                                    </div>
 
-                                            <div className="content">
-                                                <h2 >90 %</h2>
-                                                <b>Satisfied Client</b>
-                                            </div>
-
-                                            <div className="content">
-                                                <h2>25 +</h2>
-                                                <b>New Feature</b>
-                                            </div>
+                                                })
+                                            }
 
                                         </div>
-                                        <div className="learnmore">
+
+
+                                        <Button title='Learn More' />
+                                        {/* <div className="learnmore">
                                             <button className='btn'>Learn More</button>
-                                        </div>
+                                        </div> */}
                                     </div>
 
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12">
                                     <div className="rightside">
                                         <div className="image">
-                                            <img src={iphone} alt="iphone" />
+                                            <img src={iphone} alt="iphone" className='img-fluid' />
                                         </div>
                                     </div>
                                 </div>
@@ -118,6 +125,9 @@ const Home = () => {
                 </section>
 
                 <Newlatter />
+
+
+
 
             </div >
         </>

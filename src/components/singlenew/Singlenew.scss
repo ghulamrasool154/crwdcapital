@@ -123,15 +123,36 @@
       border: 1px solid #292929;
       padding: 0.5rem 1rem;
       resize: none;
-      height: 200px;
+      height: 150px;
       margin: 30px 0;
       &:focus {
         outline: none;
       }
     }
   }
-
-  @media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 993px) {
+  .Singlenew {
+    h1.title {
+      font-size: 40px;
+      line-height: 50px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .Singlenew {
+    .tagsandshare {
+      flex-direction: column;
+      .title {
+        margin-bottom: 10px;
+      }
+    }
+    .from {
+      textarea.comment {
+        height: 100px;
+      }
+    }
+    text-align: center;
     .Pandemic {
       flex-direction: column;
 
@@ -142,8 +163,8 @@
     }
 
     h1.title {
-      font-size: 40px;
-      line-height: 50px;
+      font-size: 30px;
+      line-height: 40px;
     }
   }
 }

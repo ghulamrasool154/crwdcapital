@@ -4,8 +4,10 @@
   .faq {
     // padding: 100px 0px 80px 0px;
   }
-  .paymentmenthod {
-    padding: 40px 0px 150px 0px;
+  .container.paymentmenthod {
+    padding-top: 40px;
+    padding-bottom: 100px;
+
     .Titlediscription {
       .title {
         br {
@@ -25,6 +27,22 @@
     .container-fluid {
       background-color: rgba(0, 0, 0, 0.9);
       padding: 150px 0px 150px 0px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .getstated {
+      .container-fluid {
+        padding: 50px 0 50px 0;
+      }
+    }
+    .container.paymentmenthod {
+      padding-top: 40px;
+      padding-left: 30px;
+      padding-bottom: 40px;
+      padding-right: 30px;
+      .accordion {
+        margin-bottom: 0;
+      }
     }
   }
 }

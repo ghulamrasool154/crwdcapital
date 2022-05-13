@@ -4,7 +4,7 @@ import { BsRecordCircle } from "react-icons/bs";
 
 const Iconwidget = ({ text }) => {
     return (
-        <div className='' style={{ display: 'inline-block' }}>
+        <div className='IconwidgetBOX' >
             <div className="Iconwidget">
                 <span><BsRecordCircle /></span>
                 <span className='text'> {text}</span>

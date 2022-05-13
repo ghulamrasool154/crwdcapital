@@ -95,7 +95,7 @@ const Contactus = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.9738720850914!2d115.21637131478418!3d-8.694030793753646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240e84514f455%3A0x2034e49436466c41!2sJl.%20Raya%20Sesetan%2C%20Kota%20Denpasar%2C%20Bali%2C%20Indonesia!5e0!3m2!1sen!2s!4v1651833068229!5m2!1sen!2s" width="100%" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe title="address" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.9738720850914!2d115.21637131478418!3d-8.694030793753646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240e84514f455%3A0x2034e49436466c41!2sJl.%20Raya%20Sesetan%2C%20Kota%20Denpasar%2C%20Bali%2C%20Indonesia!5e0!3m2!1sen!2s!4v1651833068229!5m2!1sen!2s" width="100%" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>

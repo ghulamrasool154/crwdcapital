@@ -27,7 +27,7 @@
     border: 1px solid #d1d1d1;
     border-radius: 5px;
     padding: 14px 30px;
-    color: #ffffff;
+    color: #d1d1d1;
   }
   .accordion-button:not(.collapsed) {
     color: #d1d1d1;
@@ -35,5 +35,11 @@
     background-image: radial-gradient(at top left, #393939 0%, #1b1b1b 76%);
     border: 1px solid #d1d1d1;
     border-radius: 5px 5px 5px 5px;
+  }
+  @media screen and (max-width: 768px) {
+    .accordion-button {
+      font-size: 15px;
+      padding: 10px 15px;
+    }
   }
 }

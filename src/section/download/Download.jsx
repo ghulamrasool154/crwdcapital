@@ -22,11 +22,11 @@ const Download = () => {
 ' />
 
                             <div className='stores'>
-                                <div style={{ width: '150px', marginRight: '10px' }}>
-                                    <img src={applystore} alt="apple store" className='w-100' />
+                                <div style={{ width: '140px', marginRight: '10px' }} className='img'>
+                                    <img src={playstore} alt="apple store" className='w-100' />
                                 </div>
                                 <div style={{ width: '150px' }}>
-                                    <img src={playstore} alt="playstore" className='w-100' />
+                                    <img src={applystore} alt="playstore" className='w-100' />
                                 </div>
 
                             </div>

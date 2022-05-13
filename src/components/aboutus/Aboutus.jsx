@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './aboutus.scss'
 
 import Titlebar from '../../abstructComponents/titlebar/Titlebar'
@@ -16,10 +16,9 @@ import TitleDynmic from '../../abstructComponents/titleDynamic/TitleDynmic'
 const Aboutus = () => {
 
 
-    const [shortteam, setshorteam] = useState(Teamsss);
 
 
-    const shorrrr = shortteam.slice(0, 3)
+    const shorrrr = Teamsss.slice(0, 3)
 
 
     return (

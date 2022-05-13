@@ -6,6 +6,7 @@ import company from '../../assets/images/about.PNG'
 import { BsCheck, BsFillAwardFill } from "react-icons/bs"
 import Iconwidget from '../../abstructComponents/iconwidget/Iconwidget'
 import Titlediscription from '../../abstructComponents/titlediscription/Titlediscription'
+import Button from '../../abstructComponents/button/Button'
 
 const Aboutsection = () => {
     return (
@@ -39,7 +40,8 @@ const Aboutsection = () => {
                                     <li><span><BsCheck /></span>Bunch Of Feature</li>
                                     <li><span><BsCheck /></span>Customer Support</li>
                                 </ul>
-                                <button className='btn'>About Us</button>
+                                <Button title='About Us' />
+                                {/* <button className='btn'>About Us</button> */}
                             </div>
                         </div >
                     </div >

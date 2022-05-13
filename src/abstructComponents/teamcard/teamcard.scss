@@ -1,10 +1,11 @@
 .teamcart {
   text-align: center;
   position: relative;
-  padding: 50px 0px;
-
+  margin: 50px 0px;
+  transition: 5s;
   &:hover .backend {
-    display: flex;
+    opacity: 1;
+    height: 100%;
   }
   .fortend {
     position: relative;
@@ -44,18 +45,35 @@
 
   .backend {
     position: absolute;
-    // top: 0;
     bottom: 0;
-    right: 0;
     left: 0;
-    // width: 100%;
-    height: 100%;
-    background: #00000066;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    z-index: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
     transition: 0.5s ease;
+    height: 0;
+    opacity: 0;
+
+    .socilicon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+
+    // position: absolute;
+    // top: 0;
+    // bottom: 0;
+    // right: 0;
+    // left: 0;
+    // // width: 100%;
+    // // height: 100%;
+    // background: #00000066;
+    // display: none;
+    // justify-content: center;
+    // align-items: center;
+    // z-index: 0;
+    // transition: 0.5s ease;
     span.icon {
       background: #00cfe5;
       width: 50px;
@@ -69,6 +87,25 @@
         font-size: 25px;
         color: white;
         cursor: pointer;
+      }
+    }
+  }
+
+  @media screen and (max-width: 993px) {
+    .fortend {
+      .profile-card {
+        h2 {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .fortend {
+      .profile-card {
+        h2 {
+          font-size: 20px;
+        }
       }
     }
   }

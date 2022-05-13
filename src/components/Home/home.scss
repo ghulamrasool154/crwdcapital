@@ -31,16 +31,6 @@
           display: flex;
           justify-content: space-around;
           margin-bottom: 40px;
-          .content {
-            h2 {
-              font-size: 42px;
-              color: #00cfe5;
-            }
-            b {
-              color: #d1d1d1;
-              font-weight: 400;
-            }
-          }
         }
         .learnmore {
           button {
@@ -63,8 +53,17 @@
       .rightside {
         .image {
           width: 80%;
-          img {
-            width: 100%;
+          img:hover {
+            // width: 100%;
+
+            animation-name: elementor-animation-bob-float,
+              elementor-animation-bob;
+            animation-duration: 0.3s, 1.5s;
+            animation-delay: 0s, 0.3s;
+            animation-timing-function: ease-out, ease-in-out;
+            animation-iteration-count: 1, infinite;
+            animation-fill-mode: forwards;
+            animation-direction: normal, alternate;
           }
         }
       }
@@ -102,13 +101,43 @@
 
   @media screen and (max-width: 993px) {
     .herosection {
+      margin-top: 0;
       .backgroundoverlay {
         background-image: none;
+        padding: 0;
+        .forcontext {
+          order: 2;
+        }
+        .leftside {
+          padding: 40px 0;
+        }
+        .rightside {
+          padding: 40px 0 0 0;
+
+          .image {
+            width: 100%;
+          }
+        }
       }
     }
-
+    .WhyChooseUs {
+      // text-align: center;
+      .container-fluid {
+        .contextside {
+          .progressbarsection {
+            width: 100%;
+            max-width: 100%;
+          }
+        }
+      }
+    }
     .DownloadNow {
       .container-fluid {
+        .rightisde {
+          .stores {
+            justify-content: center;
+          }
+        }
         .downloadimg {
           margin: 0 0 0 0;
         }
@@ -131,7 +160,7 @@
       }
     }
     .aboutcompany {
-      text-align: center;
+      // text-align: center;
       .leftside {
         .about {
           .boxexperience {
@@ -140,17 +169,7 @@
         }
       }
     }
-    .WhyChooseUs {
-      // text-align: center;
-      .container-fluid {
-        .contextside {
-          .progressbarsection {
-            width: 100%;
-            max-width: 100%;
-          }
-        }
-      }
-    }
+
     .faq {
       .leftside {
         text-align: center;
@@ -159,14 +178,6 @@
     .DownloadNow {
       text-align: center;
       margin: auto;
-
-      .container-fluid {
-        .rightisde {
-          .stores {
-            justify-content: center;
-          }
-        }
-      }
     }
   }
 }

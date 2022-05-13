@@ -37,7 +37,7 @@ const Singlenew = () => {
                     <div className="row">
 
                         {
-                            singlepost ? <><div className="col-lg-8 col-md-8 col-sm-12">
+                            singlepost ? <><div className="col-lg-8 col-md-7 col-sm-12">
                                 <h1 className='title'>{singlepost.name}</h1>
 
 
@@ -111,7 +111,7 @@ const Singlenew = () => {
                             </div></> : ''
                         }
 
-                        <div className="col-lg-4  col-md-4 col-sm-12">
+                        <div className="col-lg-4  col-md-5 col-sm-12">
                             <Sidebar />
                         </div>
                     </div>

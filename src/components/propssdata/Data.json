@@ -1,0 +1,23 @@
+{
+    "counts": [
+        {
+            "id": "1",
+            "label": "Downloaded App",
+            "number": "789 ",
+            "duration": "2"
+        },
+        {
+            "id": "2",
+            "label": "Satisfied Client",
+            "number": "90 ",
+            "duration": "2"
+        },
+        {
+            "id": "3",
+            "label": "New Feature  ",
+            "number": "25",
+            "duration": "2"
+        }
+       
+    ]
+}

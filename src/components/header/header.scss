@@ -24,10 +24,73 @@
 
     .container.mobile-menu {
       display: none;
+      .layout {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        min-width: 250px;
+        max-width: 500px;
+        height: 100vh;
+        background: black;
+        z-index: 2;
+        .closebutton {
+          right: 0;
+          z-index: 15;
+          background: #00cfe5;
+          position: absolute;
+          width: 40px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          svg {
+            font-size: 30px;
+            color: white;
+          }
+        }
+
+        // .closebutton {
+        //   background: blue;
+        //   position: absolute;
+        //   left: 0;
+        //   width: 40px;
+        //   height: 40px;
+        //   display: flex;
+        //   justify-content: center;
+        //   align-items: center;
+        //   cursor: pointer;
+        //   svg {
+        //     font-size: 30px;
+        //     color: white;
+        //   }
+        // }
+      }
+    }
+    .head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .navdiv {
+        font-size: 30px;
+        cursor: pointer;
+      }
+      .ResponsiveNavbar {
+        position: absolute;
+        left: 0;
+        height: 100%;
+        z-index: 2;
+      }
     }
   }
 
   @media screen and (max-width: 993px) {
+    .transparant-color {
+      padding: 10px 0px 10px 0px;
+      background-color: black;
+    }
+
     .right {
       display: none;
     }
@@ -48,6 +111,12 @@
           padding: 150px 0px;
         }
       }
+    }
+  }
+  @media screen and( max-width : 768px) {
+    .transparant-color {
+      padding: 10px 0px 10px 0px;
+      background-color: black;
     }
   }
 }

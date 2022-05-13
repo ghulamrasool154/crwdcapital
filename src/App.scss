@@ -73,6 +73,18 @@ b {
   .ClientReview,
   .news,
   .aboutcompany {
-    padding: 50px 0px 50px 0px;
+    padding: 40px 0px 40px 0px;
+  }
+  .OurServices,
+  .FinancialNeeds {
+    padding: 40px 0 20px 0;
+  }
+
+  .news,
+  .faq,
+  .FinancialNeeds,
+  section.compunies {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.0901960784);
+    border-top: 1px solid rgba(255, 255, 255, 0.0901960784);
   }
 }

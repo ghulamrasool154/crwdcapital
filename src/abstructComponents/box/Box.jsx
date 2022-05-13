@@ -1,6 +1,5 @@
 import React from 'react'
 import './box.scss'
-import { BsCurrencyDollar } from "react-icons/bs";
 
 const Box = (props) => {
     return (

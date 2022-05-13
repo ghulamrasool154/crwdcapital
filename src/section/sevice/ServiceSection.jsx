@@ -4,7 +4,6 @@ import Servicebox from '../../abstructComponents/servicebox/Servicebox'
 import Titlediscription from '../../abstructComponents/titlediscription/Titlediscription'
 import { Services } from '../../api/Services'
 import './service.scss'
-import { BsLaptopFill } from "react-icons/bs";
 
 const ServiceSection = () => {
     return (
@@ -22,7 +21,7 @@ const ServiceSection = () => {
 
                     {
                         Services.map((value) => {
-                            return <Servicebox icon={<BsLaptopFill />} key={value.id} title={value.title} disc={value.disc} />
+                            return <Servicebox key={value.id} title={value.title} disc={value.disc} icon={value.icon} />
                         })
                     }
 

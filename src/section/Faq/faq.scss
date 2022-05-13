@@ -10,12 +10,34 @@
     }
 
     p {
-      text-align: start;
       color: #d1d1d1;
       font-family: NeueHaasRoman;
 
       font-size: 16px;
       font-weight: 300;
+    }
+  }
+  .righside {
+    .imgbox {
+      img:hover {
+        animation-name: elementor-animation-bob-float, elementor-animation-bob;
+        animation-duration: 0.3s, 1.5s;
+        animation-delay: 0s, 0.3s;
+        animation-timing-function: ease-out, ease-in-out;
+        animation-iteration-count: 1, infinite;
+        animation-fill-mode: forwards;
+        animation-direction: normal, alternate;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .faq {
+    .leftside {
+      // padding-top: 40px;
+      padding-left: 20px;
+      // padding-bottom: 40px;
+      padding-right: 20px;
     }
   }
 }

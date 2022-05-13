@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsArrowRightShort } from "react-icons/bs";
 import './servicesbox.scss'
+
 const Servicebox = (props) => {
     return (
         <>

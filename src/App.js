@@ -1,4 +1,5 @@
 import './App.scss';
+import './assets/css/animation.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -15,7 +16,6 @@ import News from './components/news/News';
 import PageNotFonund from './components/PageNotFonund/PageNotFonund';
 import Crwdmarket from './components/crwdmarket/Crwdmarket';
 import Singlenew from './components/singlenew/Singlenew';
-
 function App() {
   return (
     <BrowserRouter>

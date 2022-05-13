@@ -2,7 +2,6 @@ import React from 'react'
 import './faq.scss'
 import Titlebar from '../../abstructComponents/titlebar/Titlebar'
 import Faq from '../../section/Faq/Faq'
-import Accordion from '../../abstructComponents/accodrion/Accordion'
 import Titlediscription from '../../abstructComponents/titlediscription/Titlediscription'
 import Iconwidget from '../../abstructComponents/iconwidget/Iconwidget'
 import Button from '../../abstructComponents/button/Button'
@@ -31,11 +30,93 @@ const FAQ = () => {
                     </div>
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-12">
-                            <Accordion />
+                            <div className="accordion" id="accordionExample">
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="headingOne">
+                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="true" aria-controls="collapseseven">
+                                            How to Register Online in The DOQU App ?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseseven" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div className="accordion-body">
+
+                                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="headingTwo">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                            How to Top-Up The DOQU E-Wallet Online ?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEight" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div className="accordion-body">
+
+                                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="headingOne">
+                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNin" aria-expanded="true" aria-controls="collapseNin">
+                                            How to Register Online in The DOQU App ?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseNin" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div className="accordion-body">
+
+                                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div className="col-lg-6  col-md-6 col-sm-12">
-                            <Accordion />
+                            <div className="accordion" id="accordionExample">
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="headingOne">
+                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                            How to Register Online in The DOQU App ?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div className="accordion-body">
 
+                                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="headingTwo">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            How to Top-Up The DOQU E-Wallet Online ?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div className="accordion-body">
+
+                                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="headingThree">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                            How to Invest My Money using DOQU Online ?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div className="accordion-body">
+
+                                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

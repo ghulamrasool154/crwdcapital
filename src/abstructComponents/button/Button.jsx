@@ -4,7 +4,6 @@ const Button = (props) => {
     return (
         <span className='custombutton'>
             <button className='button'>{props.title}</button>
-
         </span>
     )
 }

@@ -1,10 +1,23 @@
+// @-webkit-keyframes animate-positive {
+//   0% {
+//     width: 0;
+//   }
+// }
+
+// @keyframes animate-positive {
+//   0% {
+//     width: 0;
+//   }
+// }
+
 .progress-skill-bar {
   margin: 0px 0px 30px 0px;
+
   .skill-bar-content {
     .skill-title {
       color: #ffffff;
       font-weight: 400;
-      font-size: 20px;
+      font-size: 15px;
       font-family: NeueHaasRoman;
     }
   }
@@ -20,6 +33,10 @@
       height: 100%;
       overflow: visible !important;
       position: relative;
+      box-shadow: none;
+      position: relative;
+      -webkit-animation: animate-positive 2s;
+      animation: animate-positive 2s;
 
       .number-percentage-wrapper {
         position: absolute;

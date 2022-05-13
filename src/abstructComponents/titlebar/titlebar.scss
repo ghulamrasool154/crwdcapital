@@ -29,12 +29,34 @@
 
       font-size: 16px;
       font-weight: 300;
+      margin-bottom: 0 !important;
     }
   }
-
-  @media screen and (max-width: 993px) {
+}
+@media screen and (max-width: 993px) {
+  .Titlebar .overlay {
+    background-image: none;
+  }
+  .Titlebar {
+    margin-top: 0;
+    text-align: center;
+  }
+  .Titlebar .overlay {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.0901960784);
+    // border-bottom: 1px solid #000;
+    padding: 0 0 20px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Titlebar {
     .overlay {
-      background-image: none;
+      .title {
+        font-size: 25px;
+        line-height: 30px;
+      }
+      .para {
+        font-size: 15px;
+      }
     }
   }
 }

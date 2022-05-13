@@ -11,15 +11,17 @@
   border-radius: 10px 10px 10px 10px;
   .icon {
     margin: 0px 0px 5px 0px;
+    i,
     svg {
       font-size: 50px;
+      color: #00cfe5;
       fill: #00cfe5;
     }
   }
   .box-body {
     .title {
       font-size: 24px;
-      margin-top: 0.5rem;
+      margin-top: 1rem;
       margin-bottom: 1rem;
       color: white;
       font-weight: 600;

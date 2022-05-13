@@ -49,9 +49,23 @@
       }
     }
     .icon-content {
-      svg {
+      i {
         font-size: 60px;
         color: #00cfe5;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .comment-bio {
+      .bio-details {
+        .profile-image {
+          width: 60px;
+        }
+      }
+
+      .icon-content svg {
+        font-size: 40px;
       }
     }
   }

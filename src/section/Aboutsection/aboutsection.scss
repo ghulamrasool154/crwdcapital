@@ -8,6 +8,15 @@
     .about {
       width: 100%;
       position: relative;
+      img:hover {
+        animation-name: elementor-animation-bob-float, elementor-animation-bob;
+        animation-duration: 0.3s, 1.5s;
+        animation-delay: 0s, 0.3s;
+        animation-timing-function: ease-out, ease-in-out;
+        animation-iteration-count: 1, infinite;
+        animation-fill-mode: forwards;
+        animation-direction: normal, alternate;
+      }
 
       .boxexperience {
         // position: absolute;
@@ -70,15 +79,26 @@
         }
       }
     }
-    button {
-      font-size: 16px;
-      font-weight: 400;
-      fill: #ffffff;
-      color: #ffffff;
-      background-color: transparent;
-      background-image: radial-gradient(at top left, #00cfe5 0%, #00cfe5 50%);
-      border-radius: 5px 5px 5px 5px;
-      padding: 11px 33px 11px 33px;
+    // button {
+    //   font-size: 16px;
+    //   font-weight: 400;
+    //   fill: #ffffff;
+    //   color: #ffffff;
+    //   background-color: transparent;
+    //   background-image: radial-gradient(at top left, #00cfe5 0%, #00cfe5 50%);
+    //   border-radius: 5px 5px 5px 5px;
+    //   padding: 11px 33px 11px 33px;
+    // }
+  }
+
+  @media screen and (max-width: 993px) {
+    .leftside {
+      .about {
+        padding-bottom: 40px;
+        .boxexperience {
+          display: none;
+        }
+      }
     }
   }
 }

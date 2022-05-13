@@ -24,8 +24,8 @@ const Faq = () => {
                             <Button title='Learn More' />
                         </div>
                     </div>
-                    <div className="col-lg-6">
-                        <div className=''>
+                    <div className="col-lg-6 righside">
+                        <div className='imgbox'>
                             <img src={faqimg} alt="" className='w-100' />
                         </div>
                     </div>

@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './header.scss'
 import Navbar from '../../abstructComponents/navbar/Navbar'
+import ResponsiveNavbar from '../../abstructComponents/navbar/responsiveNavbar/ResponsiveNavbar'
+
+import Logo from '../../abstructComponents/logo/Logo'
+
+import { BsListUl, BsX } from "react-icons/bs";
+
 
 const Header = () => {
+
+    const [toggle, setToggle] = useState(false);
     return (
         <header className='header'>
             <div className="container-fluid  transparant-color">
@@ -25,8 +33,23 @@ const Header = () => {
                 </div>
 
                 <div className='container mobile-menu'>
-                    <div className="row">
-                        <Navbar />
+                    <div className="head">
+                        <div className='divlogo'>
+                            <Logo />
+                        </div>
+                        <div className='navdiv' onClick={() => setToggle(!toggle)}>
+                            <BsListUl />
+
+                        </div>
+                        {
+                            toggle ? <div className='layout lyoutss' >
+                                <ResponsiveNavbar />
+                                <div className="closebutton"
+                                    onClick={() => setToggle(!toggle)}>
+                                    <BsX />
+                                </div>
+                            </div> : ''
+                        }
                     </div>
                 </div>
 
