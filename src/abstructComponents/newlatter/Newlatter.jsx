@@ -13,7 +13,7 @@ const Newlatter = () => {
 
                         <div className="emailform">
                             <input type="text" placeholder='Your Message' />
-                            <Button title='Sing Up' />
+                            <button className='btn-desin'> <span><i className="fa-solid fa-paper-plane"></i></span> Sing Up</button>
 
                         </div>
                     </div>

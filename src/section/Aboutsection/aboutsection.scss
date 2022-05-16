@@ -79,6 +79,35 @@
         }
       }
     }
+
+    .signaturesection {
+      border-style: solid;
+      border-width: 1px 0px 0px 0px;
+      border-color: #1d1d1d;
+      transition: background 0.3s, border 0.3s, border-radius 0.3s,
+        box-shadow 0.3s;
+      padding: 25px 0px 0px 0px;
+
+      .inner {
+        display: flex;
+        .img {
+          width: 40%;
+        }
+        .context {
+          padding-left: 20px;
+          h1 {
+            font-family: NeueHaasRoman;
+            font-size: 20px;
+            font-weight: 500;
+            color: #ffffff;
+          }
+          p {
+            color: #d1d1d1;
+            font-size: 15px;
+          }
+        }
+      }
+    }
     // button {
     //   font-size: 16px;
     //   font-weight: 400;
@@ -97,6 +126,27 @@
         padding-bottom: 40px;
         .boxexperience {
           display: none;
+        }
+      }
+    }
+    .rightside {
+      .signaturesection {
+        .inner {
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .rightside {
+      .signaturesection {
+        .inner {
+          flex-direction: column;
+          // justify-content: space-between;
+          text-align: center;
+          .img {
+            margin: auto;
+          }
         }
       }
     }

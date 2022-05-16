@@ -8,7 +8,12 @@ import Iconwidget from '../../abstructComponents/iconwidget/Iconwidget'
 import Titlediscription from '../../abstructComponents/titlediscription/Titlediscription'
 import Button from '../../abstructComponents/button/Button'
 
+import ExperData from '../../components/propssdata/ExperData.json';
+import ExperienceCard from './ExperienceCard'
 const Aboutsection = () => {
+    console.log('ExperData', ExperData);
+
+
     return (
         <>
             <section className='aboutcompany'>
@@ -20,10 +25,12 @@ const Aboutsection = () => {
                                 <img src={company} alt="" className='w-100' />
 
                                 <div className='boxexperience' >
-
-                                    <span className='icon'><BsFillAwardFill /></span>
-                                    <h2>20 <span>+</span> </h2>
-                                    <p>Year Experience</p>
+                                    {
+                                        ExperData.counts.map((value) => {
+                                            return < ExperienceCard key={value.id} data={value} />
+                                        }
+                                        )
+                                    }
 
                                 </div>
                             </div>

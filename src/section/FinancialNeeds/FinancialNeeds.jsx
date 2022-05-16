@@ -29,7 +29,7 @@ const FinancialNeeds = () => {
                             para='Lorem ipsum dolor sit amet.'
                             listicon1={<i className="fa-brands fa-cc-visa"></i>}
                             listicon2={<i className="fa-brands fa-cc-mastercard"></i>}
-                            listicon3={<i className="fa-brands fa-apple-pay"></i>}
+                            listicon3={<i className="fa-brands fa-cc-apple-pay"></i>}
                             listicon4={<i className="fa-brands fa-cc-paypal"></i>}
                         />
 

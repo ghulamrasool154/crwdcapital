@@ -31,6 +31,13 @@
           display: flex;
           justify-content: space-around;
           margin-bottom: 40px;
+          .content:nth-child(3) {
+            border-right: 0;
+          }
+          .content {
+            padding: 0 50px;
+            border-right: 1px solid rgba(255, 255, 255, 0.0901960784);
+          }
         }
         .learnmore {
           button {
@@ -53,6 +60,10 @@
       .rightside {
         .image {
           width: 80%;
+          margin: auto;
+          .classImage {
+            width: 80%;
+          }
           img:hover {
             // width: 100%;
 

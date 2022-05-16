@@ -77,7 +77,7 @@ const Home = () => {
                                 <div className="col-lg-6 col-md-12 col-sm-12">
                                     <div className="rightside">
                                         <div className="image">
-                                            <img src={iphone} alt="iphone" className='img-fluid' />
+                                            <img src={iphone} alt="iphone" className='classImage' />
                                         </div>
                                     </div>
                                 </div>

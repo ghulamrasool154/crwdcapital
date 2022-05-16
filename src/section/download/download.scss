@@ -20,6 +20,8 @@
 
       .stores {
         display: flex;
+        animation-name: fadeInUp;
+        animation-duration: 2s;
 
         img {
           width: 150px !important;
