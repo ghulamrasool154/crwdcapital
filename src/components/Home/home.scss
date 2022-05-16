@@ -36,7 +36,21 @@
           }
           .content {
             padding: 0 50px;
-            border-right: 1px solid rgba(255, 255, 255, 0.0901960784);
+            // border: none;
+            position: relative;
+          }
+          .content:after {
+            content: "";
+            height: 20px;
+            width: 1px;
+            background: #eaeaeb;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            margin-top: -10px;
+          }
+          .content:last-child:after {
+            display: none;
           }
         }
         .learnmore {
