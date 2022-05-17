@@ -8,7 +8,7 @@ const Newlatter = () => {
         <section className='newletter'>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6 text-center m-auto">
+                    <div className="col-lg-6 text-center m-auto newlettersecton">
                         <Titlediscription title='Our ' span='Newsletter' para='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.' />
 
                         <div className="emailform">

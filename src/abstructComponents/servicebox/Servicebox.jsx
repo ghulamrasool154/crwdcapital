@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsArrowRightShort } from "react-icons/bs";
 import './servicesbox.scss'
-
+import { NavLink } from 'react-router-dom';
 const Servicebox = (props) => {
     return (
         <>
@@ -14,7 +14,7 @@ const Servicebox = (props) => {
                         <h1 className="title">{props.title} </h1>
                         <p className="description">{props.disc}</p>
                     </div>
-                    <p className="icon-box-btn">Learn more <span><BsArrowRightShort /></span></p>
+                    <NavLink to='/'>     <p className="icon-box-btn">Learn more <span><BsArrowRightShort /></span></p></NavLink>
                 </div>
             </div>
         </>

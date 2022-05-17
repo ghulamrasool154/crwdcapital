@@ -124,6 +124,19 @@
 
   // responsive
 
+  @media screen and (max-width: 1400px) {
+    .herosection {
+      .backgroundoverlay {
+        .leftside {
+          .count {
+            .content {
+              padding: 0 30px;
+            }
+          }
+        }
+      }
+    }
+  }
   @media screen and (max-width: 993px) {
     .herosection {
       margin-top: 0;
@@ -178,6 +191,10 @@
         .count {
           flex-direction: column;
           text-align: center;
+
+          .content:after {
+            display: none;
+          }
         }
         .learnmore {
           text-align: center;

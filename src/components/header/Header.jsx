@@ -41,15 +41,27 @@ const Header = () => {
                             <BsListUl />
 
                         </div>
-                        {
-                            toggle ? <div className='layout lyoutss' >
-                                <ResponsiveNavbar />
-                                <div className="closebutton"
-                                    onClick={() => setToggle(!toggle)}>
-                                    <BsX />
-                                </div>
-                            </div> : ''
-                        }
+                        {/* {
+                            toggle ?
+                                <div className='layout lyoutss'  >
+                                    <ResponsiveNavbar />
+                                    <div className="closebutton"
+                                        onClick={() => setToggle(!toggle)}>
+                                        <BsX />
+                                    </div>
+                                </div> : ''
+                        } */}
+                        <div className='layout lyoutss' style={{
+                            left: toggle ? '0' : ''
+                        }}  >
+                            <ResponsiveNavbar />
+                            <div className="closebutton"
+                                onClick={() => setToggle(!toggle)}>
+                                <BsX />
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
 

@@ -6,9 +6,13 @@
     background-image: url("../../assets/images/bg.jpg");
     background-position: center center;
     background-size: cover;
+
     .row {
       background-color: rgba(0, 0, 0, 0.9);
       padding: 80px 0;
+      .newlettersecton {
+        max-width: 600px;
+      }
     }
   }
   .title {
@@ -19,7 +23,8 @@
 
   .emailform {
     display: flex;
-
+    margin: auto;
+    max-width: 600px;
     input {
       flex: 1 1 auto;
       border-radius: 5px 0px 0px 5px;

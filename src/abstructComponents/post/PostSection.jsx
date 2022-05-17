@@ -9,14 +9,20 @@ const PostSection = (props) => {
             <article className='post'>
                 <div className='imgthumb'>
                     <div className="thumbnail-container">
-                        <img src={props.value.img} className='w-100' alt="" />
+                        <NavLink to={`/blog/` + props.value.id}>
+                            <img src={props.value.img} className='w-100' alt="" />
+                        </NavLink>
                         <div className="catagory">
                             <span>{props.value.catagory}</span>
                         </div>
                     </div>
                 </div>
                 <div className="context">
-                    <h1 className='postitle'>{props.value.name}</h1>
+                    <NavLink to={`/blog/` + props.value.id}>
+
+                        <h1 className='postitle'>{props.value.name}</h1>
+                    </NavLink>
+
                     <p className="disc">{props.value.disc}</p>
                     <NavLink to={`/blog/` + props.value.id}>
                         <p className='readmore'> readmore  <span><BsArrowRightShort /></span></p>

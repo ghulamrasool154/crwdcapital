@@ -13,7 +13,7 @@ const ExperienceCard = (props) => {
         const end = parseInt(number.substring(0, 3))
         if (start === end) return;
         let totalMilSecDur = parseInt(duration);
-        let incrementTime = (totalMilSecDur / end) * 1000;
+        let incrementTime = (totalMilSecDur / end) * 2500;
         let timer = setInterval(() => {
             start += 1;
             setCount(String(start) + number.substring(3))

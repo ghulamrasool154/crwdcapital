@@ -5,6 +5,16 @@
   }
   b {
     color: #d1d1d1;
+    font-size: 15px;
     font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .content {
+    h2 {
+      color: #00cfe5;
+      font-size: 30px;
+    }
   }
 }
