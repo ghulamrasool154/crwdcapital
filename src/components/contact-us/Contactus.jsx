@@ -76,7 +76,10 @@ const Contactus = () => {
                                         </h1>
                                     </div>
                                     <div className="social-link">
-                                        <span className='icon'><BsFacebook /></span>
+                                        <span className='icon'>
+                                            <i className="fa-brands fa-facebook-f"></i>
+                                            {/* <BsFacebook /> */}
+                                        </span>
 
 
                                         <span className='icon'><BsTwitter /></span>

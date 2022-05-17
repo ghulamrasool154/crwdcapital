@@ -9,6 +9,7 @@ import { Teamsss } from '../../api/Teamsss'
 import Clinetreview from '../../section/clinetreviews/Clinetreview'
 import Faq from '../../section/Faq/Faq'
 import TitleDynmic from '../../abstructComponents/titleDynamic/TitleDynmic'
+import Button from '../../abstructComponents/button/Button'
 const Teams = () => {
     return (
         <>
@@ -35,6 +36,22 @@ const Teams = () => {
                 </section>
 
                 <Clinetreview />
+                <section className='getstated'>
+                    <div className="container-fluid">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-7 text-center m-auto">
+
+                                    <Iconwidget text='Contact Us' />
+                                    <Titlediscription title="Get Better Knowledge & Info" span="About Our Product" para="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus." />
+
+                                    <Button title='Contact Us' />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <Faq />
 
             </div>

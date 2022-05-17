@@ -16,7 +16,9 @@ const Sidebar = () => {
                         Keep Updated with our newsletter. Subscribe now.
                     </p>
                     <input type="text" className='inputFiled' placeholder='Your Message' />
-                    <Button title='Sign Up' />
+                    {/* <Button title='Sign Up' /> */}
+
+                    <button className='signupbutton'> <i className="fa-solid fa-paper-plane"></i> Sing Up</button>
                 </div>
             </div>
         </div>

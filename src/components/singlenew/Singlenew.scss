@@ -29,7 +29,9 @@
         color: #00cfe5;
       }
       span.title {
-        padding: 0 25px;
+        // padding: 0 25px;
+        padding-left: 10px;
+        padding-right: 25px;
       }
     }
   }
@@ -129,6 +131,15 @@
         outline: none;
       }
     }
+
+    label {
+      margin-bottom: 10px;
+      font-weight: 500;
+      color: #d1d1d1;
+    }
+    .inputFormDiv {
+      margin: 24px 0px;
+    }
   }
 }
 @media screen and (max-width: 993px) {
@@ -148,6 +159,7 @@
       }
     }
     .from {
+      text-align: left;
       textarea.comment {
         height: 100px;
       }

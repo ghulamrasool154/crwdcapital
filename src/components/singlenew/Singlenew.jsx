@@ -5,11 +5,13 @@ import { BsClock, BsPersonCircle } from "react-icons/bs";
 import img1 from '../../assets/images/111.jpg'
 import img2 from '../../assets/images/222.jpg'
 
-import { BsFacebook, BsTwitter, BsInstagram, BsPinterest } from "react-icons/bs";
+import { BsFacebook, BsTwitter, BsInstagram, BsPinterest, BsLinkedin } from "react-icons/bs";
 import Button from '../../abstructComponents/button/Button';
 import Sidebar from '../../abstructComponents/sidebar/Sidebar';
 import { useParams } from 'react-router-dom';
 import { Posts } from '../../api/Posts';
+import Inputfield from '../../abstructComponents/inputfiled/Inputfield';
+import { NavLink } from 'react-router-dom'
 const Singlenew = () => {
 
     const { id } = useParams();
@@ -88,10 +90,22 @@ const Singlenew = () => {
                                     </div>
                                     <div className='share'>
                                         <b>Share This : </b>
-                                        <span className='icon'><BsFacebook /> </span>
-                                        <span className='icon'><BsInstagram /> </span>
-                                        <span className='icon'><BsTwitter /> </span>
-                                        <span className='icon'><BsPinterest /> </span>
+                                        <a href="https://www.facebook.com/" target=" _blank" rel="noopener noreferrer">
+                                            <span className='icon'><BsFacebook /> </span>
+                                        </a>
+                                        {/* <a href="https://www.instagram.com/" target=" _blank" rel="noopener noreferrer">
+                                            <span className='icon'><BsInstagram /> </span>
+                                        </a> */}
+                                        <a href="https://www.twitter.com/" target=" _blank" rel="noopener noreferrer">
+
+                                            <span className='icon'><BsTwitter /> </span></a>
+                                        <a href="https://www.pinterest.com/" target=" _blank" rel="noopener noreferrer">
+
+                                            <span className='icon'><BsPinterest /> </span></a>
+
+                                        <a href="https://www.linkedin.com/" target=" _blank" rel="noopener noreferrer">
+
+                                            <span className='icon'><BsLinkedin /> </span></a>
 
                                     </div>
                                 </div>
@@ -104,7 +118,28 @@ const Singlenew = () => {
                                     </h2>
                                     <p>Your email address will not be published. </p>
                                     <h5>Comment</h5>
+
                                     <textarea className='comment'></textarea>
+
+                                    <div className='inputFormDiv' style={{ width: '100%' }}>
+                                        <label htmlFor="">Name <span>*</span></label>
+                                        <Inputfield type='text' name='Name' cName='Name' />
+                                    </div>
+
+                                    <div className='inputFormDiv' style={{ width: '100%' }}>
+                                        <label htmlFor="">Email <span>*</span></label>
+                                        <Inputfield type='email' name='email' cName='email' />
+                                    </div>
+
+                                    <div className='inputFormDiv' style={{ width: '100%' }}>
+                                        <label htmlFor="">Website <span>*</span></label>
+                                        <Inputfield type='text' name='Website' cName='Website' />
+                                    </div>
+
+
+
+
+
 
                                     <Button title='Post Comment' />
                                 </div>

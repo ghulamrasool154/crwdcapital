@@ -83,11 +83,19 @@
       justify-content: center;
       align-items: center;
       margin: 5px;
+      transition-duration: 0.3s;
+      transition-property: transform;
       svg {
         font-size: 20px;
         color: white;
         cursor: pointer;
       }
+    }
+    span.icon:hover {
+      transform: scale(0.9);
+      transition-duration: 0.3s;
+      transition-property: transform;
+      cursor: pointer;
     }
   }
 

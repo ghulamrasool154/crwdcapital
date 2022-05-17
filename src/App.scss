@@ -29,14 +29,17 @@ p {
 .NeueHaas {
   font-family: NeueHaas;
 }
+input:focus {
+  outline: none;
+}
 
 //  equalpadding all section
-.newletter,
+// .newletter,
 .Singlenew,
 .googlemap,
 .getaquote,
 .OurTeams,
-.OurServices,
+// .OurServices,
 .FinancialNeeds,
 .faq,
 .compunies,
@@ -46,13 +49,22 @@ p {
   padding: 100px 0px 100px 0px;
 }
 
+.newletter {
+  padding: 0 0px 100px 0px;
+}
+.OurServices {
+  padding: 100px 0px 0px 0px;
+}
+.Services .OurServices {
+  padding: 0 0px 100px 0px;
+}
 @media screen and (max-width: 1200px) {
-  .newletter,
+  // .newletter,
   .Singlenew,
   .googlemap,
   .getaquote,
   .OurTeams,
-  .OurServices,
+  // .OurServices,
   .FinancialNeeds,
   .faq,
   .compunies,
@@ -61,6 +73,10 @@ p {
   .aboutcompany {
     padding: 80px 0px 80px 0px;
   }
+  .OurServices,
+  .newletter {
+    padding: 0 0px 80px 0px;
+  }
 }
 @media screen and (max-width: 993px) {
   .newletter,
@@ -68,7 +84,7 @@ p {
   .googlemap,
   .getaquote,
   .OurTeams,
-  .OurServices,
+  // .OurServices,
   .FinancialNeeds,
   .faq,
   .compunies,
@@ -77,6 +93,7 @@ p {
   .aboutcompany {
     padding: 40px 0px 40px 0px;
   }
+
   .OurServices,
   .FinancialNeeds {
     padding: 40px 0 20px 0;

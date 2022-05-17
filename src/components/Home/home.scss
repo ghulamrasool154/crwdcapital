@@ -123,6 +123,9 @@
   //
 
   // responsive
+  .FinancialNeeds {
+    padding: 0;
+  }
 
   @media screen and (max-width: 1400px) {
     .herosection {
@@ -137,6 +140,16 @@
       }
     }
   }
+  .newletter {
+    padding: 0;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .FinancialNeeds {
+      padding: 40px 0;
+    }
+  }
+
   @media screen and (max-width: 993px) {
     .herosection {
       margin-top: 0;

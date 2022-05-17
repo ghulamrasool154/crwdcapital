@@ -8,7 +8,7 @@ import './blogsection.scss'
 
 const BlogSection = () => {
     return (
-        <section className='news and blog'>
+        <section className='news and blog blgpage'>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 text-center m-auto headingcustom">

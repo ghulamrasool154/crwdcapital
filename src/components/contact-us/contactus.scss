@@ -29,7 +29,7 @@
         label {
           margin-bottom: 10px;
           font-weight: 500;
-          color: #c7c5c5;
+          color: #ffffff;
           span {
             color: #00cfe5;
           }
@@ -68,6 +68,7 @@
           h1 {
             font-size: 24px;
             color: #ffffff;
+            letter-spacing: 2px;
           }
         }
         .social-link {
@@ -81,16 +82,40 @@
             justify-content: space-around;
             align-items: center;
             border-radius: 50%;
+            transition-duration: 0.3s;
+            transition-property: transform;
             margin-left: 10px;
-            svg {
+            svg,
+            i {
               font-size: 20px;
+              color: #00cfe5;
             }
-            &:hover {
-              background-color: #00cfe5;
-              color: white;
-              cursor: pointer;
+
+            svg:hover {
+              // background-color: #00cfe5;
+              // color: white !important;
+              // cursor: pointer;
+            }
+            // &:hover {
+            //   background-color: #00cfe5;
+            //   color: white !important;
+            //   cursor: pointer;
+            // }
+          }
+          .icon:hover {
+            background-color: #00cfe5;
+
+            cursor: pointer;
+            svg,
+            i {
+              color: white !important;
             }
           }
+        }
+        .icon:hover {
+          transform: scale(0.9);
+          transition-duration: 0.3s;
+          transition-property: transform;
         }
       }
     }

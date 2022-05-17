@@ -19,7 +19,10 @@ import Singlenew from './components/singlenew/Singlenew';
 function App() {
   return (
     <BrowserRouter>
+
       <div className="App">
+
+
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
@@ -40,6 +43,10 @@ function App() {
           <Route path='*' element={<PageNotFonund />} />
         </Routes>
         <Footer />
+        {/* <Routes> */}
+        {/* </Routes> */}
+
+
 
       </div>
     </BrowserRouter>
