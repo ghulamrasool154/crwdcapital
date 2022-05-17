@@ -8,8 +8,11 @@ import Button from '../../abstructComponents/button/Button'
 import BlogSection from '../../section/blog/BlogSection'
 import Newlatter from '../../abstructComponents/newlatter/Newlatter'
 import TitleDynmic from '../../abstructComponents/titleDynamic/TitleDynmic'
+import { Posts } from '../../api/Posts';
+import PostSection from '../../abstructComponents/post/PostSection'
 
 const FAQ = () => {
+    const slicingpost = Posts.slice(0, 3);
     return (
         <>
             <TitleDynmic title='FAQ' />
@@ -138,7 +141,30 @@ const FAQ = () => {
                     </div>
                 </section>
 
-                <BlogSection />
+                <section className='news and blog'>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-6 text-center m-auto headingcustom">
+                                <Iconwidget text='Our News' />
+                                <Titlediscription title='News ' span='& Article' para='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.' />
+                            </div>
+                        </div>
+
+                        <div className="row py-4">
+
+                            {
+                                slicingpost.map((value) => {
+                                    return <PostSection key={value.id} value={value} />
+                                })
+                            }
+                        </div>
+                        <div className="row">
+                            <div className="col-lg-12 text-center m-auto">
+                                <Button title='View More' />
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
                 <Newlatter />
             </div>
