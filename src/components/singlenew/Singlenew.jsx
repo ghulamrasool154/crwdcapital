@@ -137,6 +137,9 @@ const Singlenew = () => {
                                     </div>
 
 
+                                    <p className='checkboxfiled'>
+                                        <input type="checkbox" />Save my name, email, and website in this browser for the next time I comment.</p>
+
 
 
 

@@ -23,10 +23,10 @@ const Teamcard = (props) => {
 
                     </div>
                     <div className="backend">
-                        <div className='socilicon'>
-                            <span className='icon'><BsFacebook /></span>
-                            <span className='icon'><BsTwitter /></span>
-                            <span className='icon'><BsInstagram /></span>
+                        <div className='socilicon '>
+                            <span className='icon animate__slideInUp '><BsFacebook /></span>
+                            <span className='icon animate__slideInUp'><BsTwitter /></span>
+                            <span className='icon animate__slideInUp'><BsInstagram /></span>
                         </div>
                     </div>
 

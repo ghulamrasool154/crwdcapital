@@ -65,6 +65,15 @@
     }
   }
 
+  .checkboxfiled {
+    display: flex;
+  }
+  input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+  }
+
   .tagsandshare {
     display: flex;
     justify-content: space-between;

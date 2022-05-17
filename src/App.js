@@ -16,6 +16,8 @@ import News from './components/news/News';
 import PageNotFonund from './components/PageNotFonund/PageNotFonund';
 import Crwdmarket from './components/crwdmarket/Crwdmarket';
 import Singlenew from './components/singlenew/Singlenew';
+import 'animate.css';
+
 function App() {
   return (
     <BrowserRouter>
