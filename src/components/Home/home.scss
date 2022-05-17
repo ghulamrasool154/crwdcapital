@@ -141,16 +141,23 @@
     }
   }
   .newletter {
-    padding: 0;
+    padding: 0 0 100px;
   }
 
   @media screen and (max-width: 1200px) {
     .FinancialNeeds {
       padding: 40px 0;
     }
+    .newletter {
+      padding: 0 0 80px;
+    }
   }
 
   @media screen and (max-width: 993px) {
+    .newletter {
+      padding: 40px 0px 40px 0px;
+    }
+
     .herosection {
       margin-top: 0;
       .backgroundoverlay {
