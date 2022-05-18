@@ -40,8 +40,9 @@ const Header = () => {
                             <Logo />
                         </div>
                         <div className='navdiv' onClick={() => setToggle(!toggle)}>
-                            <BsListUl />
+                            {/* <BsListUl /> */}
 
+                            <i aria-hidden="true" className="jki jki-burger-menu-light"></i>
                         </div>
                         {/* {
                             toggle ?
