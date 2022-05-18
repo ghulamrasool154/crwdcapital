@@ -7,7 +7,7 @@ import Compunies from '../../section/compunies/Compunies'
 import Download from '../../section/download/Download'
 import { BsArrowRightShort } from "react-icons/bs";
 import TitleDynmic from '../../abstructComponents/titleDynamic/TitleDynmic'
-
+import { NavLink } from 'react-router-dom'
 const Crwdmarket = () => {
     return (
 
@@ -32,7 +32,10 @@ const Crwdmarket = () => {
                                         <h2>
                                             Top-up E-wallet and Get Special crwdmarket
                                         </h2>
-                                        <p> readmore  <span><BsArrowRightShort /></span></p>
+
+                                        <NavLink to="/crwdworld/crwdmarket">
+                                            <p> readmore  <span><BsArrowRightShort /></span></p>
+                                        </NavLink>
                                     </div>
                                 </div>
                             </div>
@@ -44,7 +47,9 @@ const Crwdmarket = () => {
 
                                             Payday crwdmarket
                                         </h2>
-                                        <p> readmore  <span><BsArrowRightShort /></span></p>
+                                        <NavLink to="/crwdworld/crwdmarket">
+                                            <p> readmore  <span><BsArrowRightShort /></span></p>
+                                        </NavLink>
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +72,9 @@ const Crwdmarket = () => {
 
                                             Pay Your Bill and Get 30% Cashback
                                         </h2>
-                                        <p> readmore  <span><BsArrowRightShort /></span></p>
+                                        <NavLink to="/crwdworld/crwdmarket">
+                                            <p> readmore  <span><BsArrowRightShort /></span></p>
+                                        </NavLink>
                                     </div>
                                 </div>
                             </div>
@@ -79,7 +86,9 @@ const Crwdmarket = () => {
 
                                             Free Bank Transfer Fee for New User
                                         </h2>
-                                        <p> readmore  <span><BsArrowRightShort /></span></p>
+                                        <NavLink to="/crwdworld/crwdmarket">
+                                            <p> readmore  <span><BsArrowRightShort /></span></p>
+                                        </NavLink>
                                     </div>
                                 </div>
                             </div>
@@ -92,7 +101,9 @@ const Crwdmarket = () => {
 
                                             Free Delivery For Every Alibaba Purchase
                                         </h2>
-                                        <p> readmore  <span><BsArrowRightShort /></span></p>
+                                        <NavLink to="/crwdworld/crwdmarket">
+                                            <p> readmore  <span><BsArrowRightShort /></span></p>
+                                        </NavLink>
                                     </div>
                                 </div>
                             </div>

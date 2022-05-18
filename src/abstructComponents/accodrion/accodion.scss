@@ -9,10 +9,10 @@
       box-shadow: none;
     }
     .accordion-button:not(.collapsed)::after {
-      background-image: url("../../assets/images/bottom.png");
+      background-image: url("../../assets/images/icons8-collapse-arrow-96.png");
     }
     .accordion-button::after {
-      background-image: url("../../assets/images/bottom.png");
+      background-image: url("../../assets/images/icons8-collapse-arrow-96.png");
     }
     .accordion-body {
       padding: 10px 20px;
@@ -28,6 +28,7 @@
     border-radius: 5px;
     padding: 14px 30px;
     color: #d1d1d1;
+    letter-spacing: 0.5px;
   }
   .accordion-button:not(.collapsed) {
     color: #d1d1d1;

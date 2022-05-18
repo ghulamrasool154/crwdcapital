@@ -12,6 +12,7 @@ import { useParams } from 'react-router-dom';
 import { Posts } from '../../api/Posts';
 import Inputfield from '../../abstructComponents/inputfiled/Inputfield';
 import { NavLink } from 'react-router-dom'
+import TitleDynmic from '../../abstructComponents/titleDynamic/TitleDynmic';
 const Singlenew = () => {
 
     const { id } = useParams();
@@ -31,8 +32,9 @@ const Singlenew = () => {
     return (
         <>
 
-
-
+            {
+                singlepost ? <TitleDynmic title={singlepost.name} /> : ''
+            }
 
             <section className='Singlenew'>
                 <div className="container">

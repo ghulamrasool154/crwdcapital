@@ -68,7 +68,7 @@
       margin-bottom: 30px;
       li {
         width: 50%;
-        color: #d1d1d1;
+        color: #d1d1d1c2;
         font-family: NeueHaasRoman;
 
         span {
@@ -125,15 +125,21 @@
     .leftside {
       .about {
         padding-bottom: 40px;
-        .boxexperience {
-          display: none;
-        }
       }
     }
     .rightside {
       .signaturesection {
         .inner {
-          justify-content: space-between;
+          justify-content: space-evenly;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .leftside {
+      .about {
+        .boxexperience {
+          display: none;
         }
       }
     }

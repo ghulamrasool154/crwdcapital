@@ -29,6 +29,7 @@
           position: absolute;
           width: 110%;
           height: 110%;
+          color: #00cfe5;
           -webkit-animation-delay: 0s;
           animation-delay: 0s;
           -webkit-animation: jkit-ripple 2s;
@@ -44,10 +45,28 @@
           border: 5px solid #00cfe5;
           // top: -30%;
           // left: -30%;
-          background: #00cfe5;
+          // background: #00cfe5;
+        }
+        span.icon::after {
+          content: " ";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          color: red;
+          border-radius: 50%;
+          -webkit-box-shadow: 0 0 0 0 red;
+          box-shadow: 0 0 0 0 red;
+          -webkit-animation: jkit-ripple 3s infinite;
+          animation: jkit-ripple 3s infinite;
+          opacity: 0.6;
+          z-index: -1;
         }
 
         span.icon {
+          -webkit-transition: all 0.4s ease;
+          transition: all 0.4s ease;
           height: 60px;
           display: flex;
           width: 60px;

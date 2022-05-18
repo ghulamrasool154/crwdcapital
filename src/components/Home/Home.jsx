@@ -54,7 +54,7 @@ const Home = () => {
                                         <div className='count'>
                                             {data.counts.map(count => <Count
                                                 key={count.id} data={count} />)}
-                                            {
+                                            {/* {
                                                 data.counts.map((value) => {
                                                     <div className="content">
                                                         <h2><span className='value'>{value.number} </span> M</h2>
@@ -62,7 +62,7 @@ const Home = () => {
                                                     </div>
 
                                                 })
-                                            }
+                                            } */}
 
                                         </div>
 

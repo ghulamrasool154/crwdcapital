@@ -20,9 +20,10 @@
         font-size: 20px;
         text-transform: capitalize;
         color: white;
+        letter-spacing: 1px;
       }
       p {
-        color: #d1d1d1;
+        color: rgba(209, 209, 209, 0.7607843137);
         font-size: 16px;
       }
     }
@@ -57,7 +58,7 @@
       align-items: center;
       span.listicon {
         font-size: 15px;
-        color: #ffffff;
+        color: #ffffffb3;
         padding-left: 10px;
         i {
           color: white;

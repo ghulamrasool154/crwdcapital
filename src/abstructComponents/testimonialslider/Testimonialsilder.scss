@@ -29,7 +29,7 @@
       display: flex;
       align-items: center;
       .profile-image {
-        width: 80px;
+        width: 60px;
         img {
           width: 100%;
           border-radius: 50%;
@@ -50,7 +50,7 @@
     }
     .icon-content {
       i {
-        font-size: 60px;
+        font-size: 40px;
         color: #00cfe5;
       }
     }
@@ -60,12 +60,12 @@
     .comment-bio {
       .bio-details {
         .profile-image {
-          width: 60px;
+          width: 50px;
         }
       }
 
       .icon-content svg {
-        font-size: 40px;
+        font-size: 30px;
       }
     }
   }

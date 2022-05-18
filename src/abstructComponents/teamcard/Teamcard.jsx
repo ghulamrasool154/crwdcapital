@@ -1,8 +1,8 @@
 import React from 'react'
 
 import './teamcard.scss'
-import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
 
+import { NavLink } from 'react-router-dom'
 const Teamcard = (props) => {
     return (
         <>
@@ -24,9 +24,15 @@ const Teamcard = (props) => {
                     </div>
                     <div className="backend">
                         <div className='socilicon '>
-                            <span className='icon animate__slideInUp '><BsFacebook /></span>
-                            <span className='icon animate__slideInUp'><BsTwitter /></span>
-                            <span className='icon animate__slideInUp'><BsInstagram /></span>
+                            <NavLink to="#" className='icon '>
+                                <i className="fa-brands fa-facebook-f"></i>
+                            </NavLink>
+                            <NavLink to="#" className='icon '>
+                                <i className="fa-brands fa-twitter"></i>
+                            </NavLink>
+                            <NavLink to="#" className='icon '>
+                                <i className="fa-brands fa-instagram"></i>
+                            </NavLink>
                         </div>
                     </div>
 

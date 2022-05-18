@@ -15,7 +15,7 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
+                                <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link " aria-current="page" to="aboutus">About us</NavLink>
@@ -25,7 +25,7 @@ const Navbar = () => {
                             </li>
 
                             <li className="nav-item dropdown">
-                                <NavLink to='/' className='nav-link'>Crwdworld <span style={{ paddingLeft: '10px' }}><BsChevronDown style={{ fontSize: '12px' }} /></span> </NavLink>
+                                <NavLink to='Crwdworld' className='nav-link'>Crwdworld <span style={{ paddingLeft: '10px' }}><BsChevronDown style={{ fontSize: '12px' }} /></span> </NavLink>
                                 {/* <NavLink className="nav-link dropdown-toggle" to="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Crwdworld
                                 </NavLink> */}

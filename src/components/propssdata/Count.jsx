@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import './Count.scss';
 
 const Count = props => {
-    const { label, number, duration } = props.data
+    const { label, number, duration, sign } = props.data
 
     const [count, setCount] = useState("0")
 
@@ -26,7 +26,7 @@ const Count = props => {
         <>
 
             <div className="content">
-                <h2 ><span className='value'>{count} </span> %</h2>
+                <h2 ><span className='value'>{count} </span> {sign}</h2>
                 <b>{label}</b>
             </div>
         </>
