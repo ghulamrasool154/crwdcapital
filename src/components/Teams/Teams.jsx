@@ -10,6 +10,7 @@ import Clinetreview from '../../section/clinetreviews/Clinetreview'
 import Faq from '../../section/Faq/Faq'
 import TitleDynmic from '../../abstructComponents/titleDynamic/TitleDynmic'
 import Button from '../../abstructComponents/button/Button'
+import { NavLink } from 'react-router-dom'
 const Teams = () => {
     return (
         <>
@@ -45,7 +46,9 @@ const Teams = () => {
                                     <Iconwidget text='Contact Us' />
                                     <Titlediscription title="Get Better Knowledge & Info" span="About Our Product" para="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus." />
 
-                                    <Button title='Contact Us' />
+                                    <NavLink to='/contactus'>
+                                        <Button title='Contact Us' />
+                                    </NavLink>
                                 </div>
                             </div>
                         </div>

@@ -27,21 +27,21 @@ const FinancialNeeds = () => {
                             icon={<BsCurrencyDollar />}
                             title='Support All Payment'
                             para='Lorem ipsum dolor sit amet.'
-                            listicon1={<i className="fa-brands fa-cc-visa"></i>}
-                            listicon2={<i className="fa-brands fa-cc-mastercard"></i>}
-                            listicon3={<i className="fa-brands fa-cc-apple-pay"></i>}
-                            listicon4={<i className="fa-brands fa-cc-paypal"></i>}
+                            listicon1={<i className="fab fa-cc-visa"></i>}
+                            listicon2={<i className="fab fa-cc-mastercard"></i>}
+                            listicon3={<i className="fab fa-cc-apple-pay"></i>}
+                            listicon4={<i className="fab fa-cc-paypal"></i>}
                         />
 
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12 centerbox">
                         <Box
-                            icon={<BsFillShieldLockFill />}
+                            icon={<i className='fas fa-shield-alt'></i>}
                             title='High Security'
                             para='Lorem ipsum dolor sit amet.'
-                            listicon1={<i className="fa-solid fa-lock"></i>}
+                            listicon1={<i className="fas fa-lock"></i>}
                             listicon2="Encryption "
-                            listicon3={<i className="fa-solid fa-envelope"></i>}
+                            listicon3={<i className="fas fa-envelope-open"></i>}
                             listicon4="OTP-Message"
                         />
                     </div>
@@ -50,9 +50,9 @@ const FinancialNeeds = () => {
                             icon={<BsFillPhoneFill />}
                             title='100% Digital'
                             para='Lorem ipsum dolor sit amet.'
-                            listicon1={<i className="fa-solid fa-apple-whole"></i>}
+                            listicon1={<i className="fab fa-apple"></i>}
                             listicon2="Apple"
-                            listicon3={<i className="fa-brands fa-android"></i>}
+                            listicon3={<i className="fab fa-android"></i>}
                             listicon4="Android "
                         />
                     </div>

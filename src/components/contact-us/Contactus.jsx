@@ -5,10 +5,11 @@ import Inputfield from '../../abstructComponents/inputfiled/Inputfield'
 import Button from '../../abstructComponents/button/Button'
 import Iconwidget from '../../abstructComponents/iconwidget/Iconwidget'
 import Titlediscription from '../../abstructComponents/titlediscription/Titlediscription'
-import { BsGeoAlt, BsTelephone, BsEnvelopeFill, BsStopwatch, BsFacebook, BsTwitter, BsInstagram, BsYoutube } from "react-icons/bs";
+import { BsGeoAlt, BsTelephone, BsEnvelopeFill, BsStopwatch } from "react-icons/bs";
 
 import ContactUsBox from '../../abstructComponents/ContactUsBox/ContactUsBox'
 import TitleDynmic from '../../abstructComponents/titleDynamic/TitleDynmic'
+import { NavLink } from 'react-router-dom'
 const Contactus = () => {
 
     return (
@@ -28,7 +29,7 @@ const Contactus = () => {
                         <div className="row">
                             <div className="col-lg-6 col-md-12 col-sm-12">
                                 <h1 className='leavemessage'>    Leave A Message </h1>
-                                <form className='from' onSubmit={(e) => e.preventDefault()}>
+                                <form className='from' onSubmit={(evenet) => evenet.preventDefault()}>
                                     <div className='inputFormDiv'>
                                         <label htmlFor="">Name <span>*</span></label>
                                         <Inputfield type='text' name='Name' cName='name' placeholder='Your Name' />
@@ -51,7 +52,10 @@ const Contactus = () => {
                                         <textarea name="Message" className='textareaField' placeholder='Message' ></textarea>
                                     </div>
 
-                                    <Button title='Send Message' />
+                                    <NavLink to="##">
+                                        <input type="submit" value="Send Message" className='submit' />
+                                    </NavLink>
+                                    {/* <Button title='send Message'></Button> */}
                                 </form>
 
                             </div>
@@ -76,15 +80,36 @@ const Contactus = () => {
                                         </h1>
                                     </div>
                                     <div className="social-link">
+
+
                                         <span className='icon'>
-                                            <i className="fa-brands fa-facebook-f"></i>
-                                            {/* <BsFacebook /> */}
+
+
+                                            <a href="http://www.facebook.com"
+                                                target="_blank"
+                                                rel="noopener noreferrer">
+
+                                                <i className="fa-brands fa-facebook-f"></i>
+                                            </a>
                                         </span>
+                                        <span className='icon'>
+                                            <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer">
 
+                                                <i className="fab fa-twitter"></i>
+                                            </a>
+                                        </span>
+                                        <span className='icon'>
+                                            <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                                                <i className="fab fa-instagram"></i>
+                                            </a>
 
-                                        <span className='icon'><BsTwitter /></span>
-                                        <span className='icon'><BsInstagram /></span>
-                                        <span className='icon'><BsYoutube /></span>
+                                        </span>
+                                        <span className='icon'>
+                                            <a href="http://www.youtube.com" target="_blank" rel="noopener noreferrer">
+
+                                                <i className="fab fa-youtube"></i>
+                                            </a>
+                                        </span>
                                     </div>
                                 </div>
                             </div>

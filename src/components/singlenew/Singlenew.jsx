@@ -84,16 +84,20 @@ const Singlenew = () => {
                                 <div className="tagsandshare">
                                     <div className='title'>
                                         <b>Tags :
-                                            <span className='tags'>
-                                                Digital bank</span>,
-                                            <span className='tags'>
-                                                New</span>
+                                            <a href='#' target="" className='tags'>
+                                                Digital bank</a>,
+                                            <a href='#' target="" className='tags'>
+                                                New</a>
                                         </b>
                                     </div>
                                     <div className='share'>
                                         <b>Share This : </b>
                                         <a href="https://www.facebook.com/" target=" _blank" rel="noopener noreferrer">
-                                            <span className='icon'><BsFacebook /> </span>
+                                            <span className='icon'>
+                                                <i className='fab fa-facebook-f'></i>
+                                                {/* <BsFacebook /> */}
+
+                                            </span>
                                         </a>
                                         {/* <a href="https://www.instagram.com/" target=" _blank" rel="noopener noreferrer">
                                             <span className='icon'><BsInstagram /> </span>
@@ -103,11 +107,17 @@ const Singlenew = () => {
                                             <span className='icon'><BsTwitter /> </span></a>
                                         <a href="https://www.pinterest.com/" target=" _blank" rel="noopener noreferrer">
 
-                                            <span className='icon'><BsPinterest /> </span></a>
+                                            <span className='icon'>
+                                                <i className="fab fa-pinterest-p"></i>
+                                                {/* <BsPinterest /> */}
+                                            </span></a>
 
                                         <a href="https://www.linkedin.com/" target=" _blank" rel="noopener noreferrer">
 
-                                            <span className='icon'><BsLinkedin /> </span></a>
+                                            <span className='icon'>
+                                                <i className='fab fa-linkedin-in'></i>
+                                                {/* <BsLinkedin />  */}
+                                            </span></a>
 
                                     </div>
                                 </div>
@@ -115,7 +125,7 @@ const Singlenew = () => {
                                 <hr className='line' />
 
 
-                                <div className='from'>
+                                <form className='from' onSubmit={(event) => event.preventDefault()}>
                                     <h2 className="comment-reply-title">Leave a Reply
                                     </h2>
                                     <p>Your email address will not be published. </p>
@@ -144,10 +154,10 @@ const Singlenew = () => {
 
 
 
-
-
-                                    <Button title='Post Comment' />
-                                </div>
+                                    <NavLink to="########">
+                                        <input type="submit" value="Post Comment" className='submit' />
+                                    </NavLink>
+                                </form>
                             </div></> : ''
                         }
 

@@ -6,7 +6,7 @@ import ResponsiveNavbar from '../../abstructComponents/navbar/responsiveNavbar/R
 import Logo from '../../abstructComponents/logo/Logo'
 
 import { BsListUl, BsX } from "react-icons/bs";
-
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
 
@@ -27,7 +27,9 @@ const Header = () => {
                             <Navbar />
                         </div>
                         <div className="col-lg-3 col-md-2 text-end right">
-                            <button className="getstated btn"> Get Started</button>
+                            <NavLink to='###'>
+                                <span className="getstated btn"> Get Started</span>
+                            </NavLink>
                         </div>
                     </div>
                 </div>

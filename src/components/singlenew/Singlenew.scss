@@ -97,6 +97,10 @@
         display: inline-flex;
         height: 40px;
         justify-content: center;
+        i {
+          cursor: pointer;
+          color: #00cfe5;
+        }
         svg {
           cursor: pointer;
           color: #00cfe5;
@@ -117,12 +121,12 @@
   .from {
     .comment-reply-title {
       color: #d1d1d1;
-      font-family: "Neuropolxlight";
+      font-family: "Neuropol_X_Light";
     }
 
     p {
       margin: 0;
-      color: #00cfe5;
+      // color: #00cfe5;
     }
     textarea.comment {
       font-size: 16px;

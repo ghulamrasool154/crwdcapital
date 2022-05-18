@@ -17,12 +17,27 @@
       flex-wrap: wrap;
       justify-content: space-between;
 
-      .custombutton {
-        width: 100% !important;
-        button {
+      textarea,
+      input {
+        border-color: #ffffff57;
+
+        &:focus {
+          border-color: #ffffff9e;
+        }
+      }
+      a {
+        width: 100%;
+
+        input.submit {
           width: 100%;
         }
       }
+      // .custombutton {
+      //   width: 100% !important;
+      //   button {
+      //     width: 100%;
+      //   }
+      // }
       .inputFormDiv {
         width: 48%;
         margin-bottom: 20px;
@@ -78,9 +93,8 @@
             width: 40px;
             height: 40px;
             background: white;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
+            text-align: center;
+            line-height: 43px;
             border-radius: 50%;
             transition-duration: 0.3s;
             transition-property: transform;

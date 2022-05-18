@@ -6,6 +6,7 @@ import Titlediscription from '../../abstructComponents/titlediscription/Titledis
 import bgperson from '../../assets/images/bg peros.jpg'
 import './Whychooseus.scss'
 import VideoSection from '../../abstructComponents/videoSection/VideoSection'
+import { NavLink } from 'react-router-dom'
 const Whychooseus = () => {
     const [Toggle, setToggle] = useState(false);
 
@@ -43,8 +44,9 @@ const Whychooseus = () => {
                                     <Porgressbar
                                         title="App Safety" value="85" />
                                 </div>
-
-                                <Button title="Free Consultation" />
+                                <NavLink to='###########'>
+                                    <Button title="Free Consultation" />
+                                </NavLink>
                             </div>
                         </div>
                     </div>

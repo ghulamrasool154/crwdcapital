@@ -55,7 +55,7 @@ const Testimonialsilder = () => {
                                         </span>
                                     </div>
                                     <div className="icon-content">
-                                        <i className="fa-solid fa-quote-right"></i>
+                                        <i className="fas fa-quote-right"></i>
                                     </div>
                                 </div>
 

@@ -34,9 +34,8 @@
         margin-bottom: 10px;
       }
       .custombutton {
-        button {
-          width: 100%;
-        }
+        width: 100%;
+        display: flex;
       }
       .signupbutton {
         font-size: 16px;

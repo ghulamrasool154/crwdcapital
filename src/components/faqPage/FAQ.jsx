@@ -10,6 +10,7 @@ import Newlatter from '../../abstructComponents/newlatter/Newlatter'
 import TitleDynmic from '../../abstructComponents/titleDynamic/TitleDynmic'
 import { Posts } from '../../api/Posts';
 import PostSection from '../../abstructComponents/post/PostSection'
+import { NavLink } from 'react-router-dom'
 
 const FAQ = () => {
     const slicingpost = Posts.slice(0, 3);
@@ -134,7 +135,10 @@ const FAQ = () => {
                                     <Iconwidget text='Contact Us' />
                                     <Titlediscription title="Get Better Knowledge & Info" span="About Our Product" para="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus." />
 
-                                    <Button title='Contact Us' />
+
+                                    <NavLink to='/contactus'>
+                                        <Button title='Contact Us' />
+                                    </NavLink>
                                 </div>
                             </div>
                         </div>
@@ -160,7 +164,9 @@ const FAQ = () => {
                         </div>
                         <div className="row">
                             <div className="col-lg-12 text-center m-auto">
-                                <Button title='View More' />
+                                <NavLink to='/crwdworld/news'>
+                                    <Button title='View More' />
+                                </NavLink>
                             </div>
                         </div>
                     </div>

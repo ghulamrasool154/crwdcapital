@@ -11,7 +11,7 @@ import Clinetreview from '../../section/clinetreviews/Clinetreview'
 import FinancialNeeds from '../../section/FinancialNeeds/FinancialNeeds'
 import ServiceSection from '../../section/sevice/ServiceSection'
 import Whychooseus from '../../section/WhyChooseUs/Whychooseus'
-
+import { NavLink } from 'react-router-dom'
 const Services = () => {
   const slicingpost = Posts.slice(0, 3);
   return (
@@ -45,7 +45,9 @@ const Services = () => {
             </div>
             <div className="row">
               <div className="col-lg-12 text-center m-auto">
-                <Button title='View More' />
+                <NavLink to='crwdworld/news'>
+                  <Button title='View More' />
+                </NavLink>
               </div>
             </div>
           </div>

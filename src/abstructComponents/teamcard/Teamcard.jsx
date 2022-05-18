@@ -24,15 +24,15 @@ const Teamcard = (props) => {
                     </div>
                     <div className="backend">
                         <div className='socilicon '>
-                            <NavLink to="#" className='icon '>
+                            <a href="http://www.facebook.com" className='icon ' target="_blank" rel="noopener noreferrer">
                                 <i className="fa-brands fa-facebook-f"></i>
-                            </NavLink>
-                            <NavLink to="#" className='icon '>
+                            </a>
+                            <a href="http://www.twitter.com" className='icon ' target="_blank" rel="noopener noreferrer" >
                                 <i className="fa-brands fa-twitter"></i>
-                            </NavLink>
-                            <NavLink to="#" className='icon '>
+                            </a>
+                            <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer" className='icon '>
                                 <i className="fa-brands fa-instagram"></i>
-                            </NavLink>
+                            </a>
                         </div>
                     </div>
 
