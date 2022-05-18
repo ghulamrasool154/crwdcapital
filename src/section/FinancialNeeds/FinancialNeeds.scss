@@ -25,8 +25,17 @@
   }
 }
 
-@media screen and (max-width: 993) {
+@media screen and (max-width: 993px) {
   .FinancialNeeds {
     padding: 40px 0px 40px 0px;
+
+    .row.mobileCoulum {
+      flex-direction: column;
+    }
+    .mobileMax {
+      max-width: 350px !important;
+      width: 100% !important;
+      margin: 0 auto !important;
+    }
   }
 }

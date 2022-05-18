@@ -17,7 +17,7 @@ const ServiceSection = () => {
 
                     </div>
                 </div>
-                <div className="row">
+                <div className="row gy-4 gx-4 ">
 
                     {
                         Services.map((value) => {

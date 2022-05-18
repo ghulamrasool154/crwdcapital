@@ -21,8 +21,8 @@ const FinancialNeeds = () => {
 
 
 
-                <div className="row">
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="row mobileCoulum">
+                    <div className="col-lg-4 col-md-12 col-sm-12 mobileMax">
                         <Box
 
                             icon={<i aria-hidden="true" className="jki jki-dollar-light"></i>}
@@ -35,7 +35,7 @@ const FinancialNeeds = () => {
                         />
 
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12 centerbox">
+                    <div className="col-lg-4 col-md-12 col-sm-12 mobileMax centerbox">
                         <Box
                             icon={<i className='fas fa-shield-alt'></i>}
                             title='High Security'
@@ -46,7 +46,7 @@ const FinancialNeeds = () => {
                             listicon4="OTP-Message"
                         />
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
+                    <div className="col-lg-4 col-md-12 col-sm-12 mobileMax">
                         <Box
                             icon={<i className='jki jki-smartphone2-light' />}
                             title='100% Digital'

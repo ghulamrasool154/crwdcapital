@@ -10,14 +10,14 @@ const Footer = () => {
 
             <div className="container">
                 <div className="row align-items-center ">
-                    <div className="col-lg-3 col-md-3 col-sm-12">
+                    <div className="col-lg-3 col-md-12 col-sm-12">
 
                         <Logo />
                         {/* <div className='logo'>
                             <img src={logo} alt="logo" />
                         </div> */}
                     </div>
-                    <div className="col-lg-5 col-md-5 col-sm-12">
+                    <div className="col-lg-5 col-md-12 col-sm-12">
                         <ul className='footernabar list-style-0 d-flex justify-content-space-between' >
                             <li>
                                 <NavLink to="/">Home</NavLink>
@@ -33,7 +33,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-lg-4 col-md-4 col-sm-12">
+                    <div className="col-lg-4 col-md-12 col-sm-12">
                         <ul className='footernabar right d-flex'>
 
                             <li>
