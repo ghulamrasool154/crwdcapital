@@ -69,7 +69,6 @@ const Home = () => {
 
 
                                         <NavLink to="crwdworld/news">
-
                                             <Button title='Learn More' />
                                         </NavLink>
                                         {/* <div className="learnmore">
