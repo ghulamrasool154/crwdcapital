@@ -1,7 +1,7 @@
 import React from 'react'
 import './post.scss'
 import { BsArrowRightShort } from "react-icons/bs";
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 const PostSection = (props) => {
 
     return (
@@ -9,24 +9,24 @@ const PostSection = (props) => {
             <article className='post'>
                 <div className='imgthumb'>
                     <div className="thumbnail-container">
-                        <NavLink to={`/blog/` + props.value.id}>
+                        <Link to={`/blog/` + props.value.id}>
                             <img src={props.value.img} className='w-100' alt="" />
-                        </NavLink>
+                        </Link>
                         <div className="catagory">
                             <span>{props.value.catagory}</span>
                         </div>
                     </div>
                 </div>
                 <div className="context">
-                    <NavLink to={`/blog/` + props.value.id}>
+                    <Link to={`/blog/` + props.value.id}>
 
                         <h1 className='postitle'>{props.value.name}</h1>
-                    </NavLink>
+                    </Link>
 
                     <p className="disc">{props.value.disc}</p>
-                    <NavLink to={`/blog/` + props.value.id}>
+                    <Link to={`/blog/` + props.value.id}>
                         <p className='readmore'> readmore  <span><BsArrowRightShort /></span></p>
-                    </NavLink>
+                    </Link>
                 </div>
 
             </article >

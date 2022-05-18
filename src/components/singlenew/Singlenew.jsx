@@ -11,7 +11,7 @@ import Sidebar from '../../abstructComponents/sidebar/Sidebar';
 import { useParams } from 'react-router-dom';
 import { Posts } from '../../api/Posts';
 import Inputfield from '../../abstructComponents/inputfiled/Inputfield';
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import TitleDynmic from '../../abstructComponents/titleDynamic/TitleDynmic';
 const Singlenew = () => {
 
@@ -47,12 +47,13 @@ const Singlenew = () => {
 
                                 <div className="aboutuserdetails">
                                     <span className="icon">
-                                        <BsPersonCircle />
+                                        {/* <BsPersonCircle /> */}
+                                        <i aria-hidden="true" className="jki jki-user-circle-solid"></i>
                                         <span className='title'>
                                             John Doe</span>
                                     </span>
                                     <span className="icon">
-                                        <BsClock />
+                                        <i aria-hidden="true" className="jki jki-clock"></i>
                                         <span className='title'>September 7, 2021
                                         </span>
                                     </span>
@@ -154,9 +155,9 @@ const Singlenew = () => {
 
 
 
-                                    <NavLink to="########">
-                                        <input type="submit" value="Post Comment" className='submit' />
-                                    </NavLink>
+
+                                    <input type="submit" value="Post Comment" className='submit' />
+
                                 </form>
                             </div></> : ''
                         }

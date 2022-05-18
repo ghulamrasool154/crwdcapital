@@ -4,7 +4,7 @@ import './RecentPostCart.scss'
 import { BsFillClockFill } from "react-icons/bs";
 
 import { Posts } from '../../api/Posts';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 const RecentPostCart = () => {
 
 
@@ -20,9 +20,9 @@ const RecentPostCart = () => {
                 {
                     slicpost.map((value) => {
                         return <li key={value.id}>
-                            <NavLink to={'/blog/' + value.id}>
+                            <Link to={'/blog/' + value.id}>
                                 <h5> {value.name}</h5>
-                            </NavLink>
+                            </Link>
 
                             <div className='meta-lists'>
                                 <span className='icon'><BsFillClockFill /></span>

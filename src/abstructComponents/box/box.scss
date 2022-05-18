@@ -40,6 +40,20 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        // i.jki-dollar-light:before {
+        //   content: "\fab1";
+        // }
+        .jki-dollar-light:before {
+          content: "\fab1";
+          font-style: normal;
+        }
+
+        .jki-dollar-light::before {
+          content: "\fab1";
+        }
+        .jki-smartphone2-light::before {
+          content: "\fa79";
+        }
         i {
           font-size: 25px;
           color: white;

@@ -2,7 +2,7 @@ import React from 'react'
 import './newlatter.scss'
 import Titlediscription from '../titlediscription/Titlediscription'
 import Button from '../button/Button'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Newlatter = () => {
     return (
@@ -16,9 +16,12 @@ const Newlatter = () => {
                             <input type="text" placeholder='Your Message' />
 
 
-                            <NavLink to="##" className='btn-desin'>
+                            {/* <Link to="#" className='btn-desin'>
                                 <span><i className="fa-solid fa-paper-plane"></i></span> Sing Up
-                            </NavLink>
+                            </Link> */}
+                            <button className='btn-desin' type='submit'>
+                                <span><i className="fa-solid fa-paper-plane"></i></span> Sing Up
+                            </button>
                         </form>
                     </div>
                 </div>

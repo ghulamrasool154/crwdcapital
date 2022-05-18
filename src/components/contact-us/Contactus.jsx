@@ -5,11 +5,11 @@ import Inputfield from '../../abstructComponents/inputfiled/Inputfield'
 import Button from '../../abstructComponents/button/Button'
 import Iconwidget from '../../abstructComponents/iconwidget/Iconwidget'
 import Titlediscription from '../../abstructComponents/titlediscription/Titlediscription'
-import { BsGeoAlt, BsTelephone, BsEnvelopeFill, BsStopwatch } from "react-icons/bs";
+import { BsGeoAlt, BsTelephone, BsEnvelopeFill, BsStopwatch, BsFacebook, BsTwitter, BsInstagram, BsYoutube } from "react-icons/bs";
 
 import ContactUsBox from '../../abstructComponents/ContactUsBox/ContactUsBox'
 import TitleDynmic from '../../abstructComponents/titleDynamic/TitleDynmic'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 const Contactus = () => {
 
     return (
@@ -52,9 +52,9 @@ const Contactus = () => {
                                         <textarea name="Message" className='textareaField' placeholder='Message' ></textarea>
                                     </div>
 
-                                    <NavLink to="##">
+                                    <p>
                                         <input type="submit" value="Send Message" className='submit' />
-                                    </NavLink>
+                                    </p>
                                     {/* <Button title='send Message'></Button> */}
                                 </form>
 

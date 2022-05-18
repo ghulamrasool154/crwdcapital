@@ -31,6 +31,7 @@
       color: #d1d1d1;
     }
   }
+
   .icon-box-btn {
     font-size: 15px;
     color: #00cfe5;
@@ -41,4 +42,23 @@
       }
     }
   }
+}
+
+.jki-laptop-phone-light::before {
+  content: "\f83d";
+}
+.jki-save-money-light::before {
+  content: "\faef";
+}
+.jki-credit-card-light::before {
+  content: "\fa03";
+}
+.jki-invest-light::before {
+  content: "\f971";
+}
+.jki-bill-light::before {
+  content: "\fac7";
+}
+.jki-product-sale-light::before {
+  content: "\f92b";
 }

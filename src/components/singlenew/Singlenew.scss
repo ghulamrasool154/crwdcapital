@@ -23,10 +23,13 @@
   .aboutuserdetails {
     padding: 20px 0px;
     span.icon {
-      display: inline-block;
+      display: inline-flex;
       color: #d1d1d1;
+      i.jki.jki-user-circle-solid,
+      i.jki.jki-clock,
       svg {
         color: #00cfe5;
+        font-size: 24px;
       }
       span.title {
         // padding: 0 25px;
@@ -193,4 +196,11 @@
       line-height: 40px;
     }
   }
+}
+.jki-user-circle-solid:before {
+  content: "\ee95";
+}
+
+.jki-clock:before {
+  content: "\ea1a";
 }

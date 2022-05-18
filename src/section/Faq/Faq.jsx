@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Accordion from '../../abstructComponents/accodrion/Accordion'
 import Button from '../../abstructComponents/button/Button'
 import Iconwidget from '../../abstructComponents/iconwidget/Iconwidget'
@@ -22,10 +22,10 @@ const Faq = () => {
 
                             <Accordion />
 
-                            <NavLink to='##'>
+                            <Link to='#'>
 
                                 <Button title='Learn More' />
-                            </NavLink>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-lg-6  col-md-6  col-sm-12 righside">

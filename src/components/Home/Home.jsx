@@ -22,7 +22,7 @@ import TitleDynmic from '../../abstructComponents/titleDynamic/TitleDynmic';
 
 import data from '../../components/propssdata/Data.json'
 import Count from '../../components/propssdata/Count';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -67,10 +67,11 @@ const Home = () => {
 
                                         </div>
 
-
-                                        <NavLink to="crwdworld/news">
+                                        <a href="#" target="">
                                             <Button title='Learn More' />
-                                        </NavLink>
+                                        </a>
+
+
                                         {/* <div className="learnmore">
                                             <button className='btn'>Learn More</button>
                                         </div> */}
@@ -121,9 +122,9 @@ const Home = () => {
                         <div className="row">
                             <div className="col-lg-12 text-center m-auto">
 
-                                <NavLink to="news">
+                                <Link to="news">
                                     <Button title='View More' />
-                                </NavLink>
+                                </Link>
                             </div>
                         </div>
                     </div>

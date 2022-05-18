@@ -10,7 +10,7 @@ import Button from '../../abstructComponents/button/Button'
 
 import ExperData from '../../components/propssdata/ExperData.json';
 import ExperienceCard from './ExperienceCard'
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 const Aboutsection = () => {
     console.log('ExperData', ExperData);
 
@@ -49,10 +49,9 @@ const Aboutsection = () => {
                                     <li><span><BsCheck /></span>Customer Support</li>
                                 </ul>
 
-                                <NavLink to="aboutus">
-
+                                <Link to="#">
                                     <Button title='About Us' />
-                                </NavLink>
+                                </Link>
                                 {/* <button className='btn'>About Us</button> */}
                             </div>
                         </div >

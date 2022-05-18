@@ -1,11 +1,4 @@
-@font-face {
-    font-family: 'jkiticon';
-    src: url('jkiticon.eot?bv8d8l');
-    src: url('jkiticon.eot?bv8d8l#iefix') format('embedded-opentype'), url('jkiticon.ttf?bv8d8l') format('truetype'), url('jkiticon.woff?bv8d8l') format('woff'), url('jkiticon.svg?bv8d8l#jkiticon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-}
+
 
 [class*="jki jki-"] {
     /* use !important to prevent issues with browser extensions that change fonts */

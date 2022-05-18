@@ -24,7 +24,8 @@ const FinancialNeeds = () => {
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-12">
                         <Box
-                            icon={<BsCurrencyDollar />}
+
+                            icon={<i aria-hidden="true" className="jki jki-dollar-light"></i>}
                             title='Support All Payment'
                             para='Lorem ipsum dolor sit amet.'
                             listicon1={<i className="fab fa-cc-visa"></i>}
@@ -47,7 +48,7 @@ const FinancialNeeds = () => {
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12">
                         <Box
-                            icon={<BsFillPhoneFill />}
+                            icon={<i className='jki jki-smartphone2-light' />}
                             title='100% Digital'
                             para='Lorem ipsum dolor sit amet.'
                             listicon1={<i className="fab fa-apple"></i>}

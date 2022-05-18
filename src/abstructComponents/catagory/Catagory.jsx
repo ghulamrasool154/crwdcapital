@@ -1,7 +1,7 @@
 import React from 'react'
 import './catagory.scss'
 import { BsDashLg } from "react-icons/bs";
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 const Catagory = () => {
     return (
         <div className='Catagory'>
@@ -10,17 +10,17 @@ const Catagory = () => {
 
             <ul>
                 <li>
-                    <NavLink to='#'>
+                    <Link to='#'>
                         <span className='line-bar'><BsDashLg /></span> Update
-                    </NavLink>
+                    </Link>
                 </li>
 
                 <li>
-                    <NavLink to='#'> <span className='line-bar'><BsDashLg /></span> News</NavLink>
+                    <Link to='#'> <span className='line-bar'><BsDashLg /></span> News</Link>
                 </li>
 
                 <li>
-                    <NavLink to='#'> <span className='line-bar'><BsDashLg /></span> Finance</NavLink>
+                    <Link to='#'> <span className='line-bar'><BsDashLg /></span> Finance</Link>
                 </li>
 
             </ul>
