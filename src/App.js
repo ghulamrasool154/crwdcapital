@@ -31,7 +31,7 @@ function App() {
           <Route path='aboutus' element={<Aboutus />} />
           <Route path='services' element={<Services />} />
           <Route path='crwdworld'>
-            <Route index element={<Crwdworld />} />
+            <Route index element={< FAQ />} />
             <Route path='faq' element={<FAQ />} />
             <Route path='team' element={<Teams />} />
             <Route path='news' element={<News />} />

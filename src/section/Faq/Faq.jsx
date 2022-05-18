@@ -12,7 +12,7 @@ const Faq = () => {
         <section className='faq'>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6 col-sm-12">
                         <div className='leftside'>
                             <Iconwidget text="FAQ's" />
                             <Titlediscription title='Easy Way to Manage and Convert' span=" Your Income"
@@ -28,7 +28,7 @@ const Faq = () => {
                             </NavLink>
                         </div>
                     </div>
-                    <div className="col-lg-6 righside">
+                    <div className="col-lg-6  col-md-6  col-sm-12 righside">
                         <div className='imgbox'>
                             <img src={faqimg} alt="" className='w-100' />
                         </div>

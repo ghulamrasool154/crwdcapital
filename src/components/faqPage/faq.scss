@@ -29,12 +29,23 @@
       padding: 150px 0px 150px 0px;
     }
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
+    .getstated {
+      .container-fluid {
+        padding: 80px 0 80px 0;
+      }
+    }
+  }
+
+  @media screen and (max-width: 993px) {
     .getstated {
       .container-fluid {
         padding: 50px 0 50px 0;
       }
     }
+  }
+
+  @media screen and (max-width: 768px) {
     .container.paymentmenthod {
       padding-top: 40px;
       padding-left: 30px;

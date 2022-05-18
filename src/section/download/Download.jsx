@@ -11,12 +11,12 @@ const Download = () => {
             <div className="container-fluid">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 col-md-12">
+                        <div className="col-lg-6 col-md-6 col-sm-12">
                             <div className='downloadimg'>
                                 <img src={doubleImgmobile} alt="download" className='w-100' />
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-12 rightisde">
+                        <div className="col-lg-6 col-md-6 col-sm-12 rightisde">
                             <Iconwidget text='Download Now' />
                             <Titlediscription title='Download and Register From ' span='GThe Mobile App' para='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.
 ' />

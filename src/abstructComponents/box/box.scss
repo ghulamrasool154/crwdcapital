@@ -76,6 +76,27 @@
     }
   }
 }
+@media screen and (max-width: 1200px) {
+  .box {
+    padding: 20px 15px 20px 15px;
+    .context {
+      .text {
+        h1 {
+          font-size: 15px;
+        }
+      }
+    }
+    .bottom {
+      .iconitem {
+        span.listicon {
+          i {
+            font-size: 25px;
+          }
+        }
+      }
+    }
+  }
+}
 @media screen and (max-width: 993px) {
   .box {
     margin: 0;

@@ -25,7 +25,7 @@ const Crwdmarket = () => {
                             </div>
                         </div>
                         <div className="row py-4">
-                            <div className="col-lg-8">
+                            <div className="col-lg-8 col-md-6 col-sm-12">
                                 <div className="leftside">
                                     <div className="backcolor">
                                         <div style={{ height: '260px' }}></div>
@@ -39,7 +39,7 @@ const Crwdmarket = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-6 col-sm-12">
                                 <div className="rightside">
                                     <div className="backcolor">
                                         <div style={{ height: '260px' }}></div>
@@ -59,12 +59,12 @@ const Crwdmarket = () => {
                 <section className='branddeals'>
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-6 text-center m-auto">
+                            <div className="col-lg-6 col-md-6 col-sm-12 text-center m-auto">
                                 <Titlediscription title='Brand ' span='Deals' />
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-6 col-sm-12">
                                 <div className="leftside">
                                     <div className="backcolor">
                                         <div style={{ height: '260px' }}></div>
@@ -78,7 +78,7 @@ const Crwdmarket = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-6 col-sm-12">
                                 <div className="centerside">
                                     <div className="backcolor">
                                         <div style={{ height: '260px' }}></div>
@@ -93,7 +93,7 @@ const Crwdmarket = () => {
                                 </div>
                             </div>
 
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 col-md-6 col-sm-12">
                                 <div className="rightside">
                                     <div className="backcolor">
                                         <div style={{ height: '260px' }}></div>
