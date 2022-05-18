@@ -2,6 +2,20 @@
   padding: 50px 0px 100px 0px;
   background-color: #0c0c0c;
   text-align: center;
+
+  .centerbox {
+    .box {
+      .bottom {
+        .iconitem {
+          span.listicon {
+            i {
+              color: #00cfe5;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 1200px) {

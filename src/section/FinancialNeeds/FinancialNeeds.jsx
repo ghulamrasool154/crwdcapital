@@ -34,7 +34,7 @@ const FinancialNeeds = () => {
                         />
 
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-6 col-sm-12 centerbox">
                         <Box
                             icon={<BsFillShieldLockFill />}
                             title='High Security'
@@ -45,7 +45,7 @@ const FinancialNeeds = () => {
                             listicon4="OTP-Message"
                         />
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <Box
                             icon={<BsFillPhoneFill />}
                             title='100% Digital'
