@@ -22,7 +22,7 @@ const FinancialNeeds = () => {
 
 
                 <div className="row">
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <Box
                             icon={<BsCurrencyDollar />}
                             title='Support All Payment'
@@ -58,7 +58,7 @@ const FinancialNeeds = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
 
