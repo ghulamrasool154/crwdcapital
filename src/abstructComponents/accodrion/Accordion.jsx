@@ -44,6 +44,10 @@ const Accordion = () => {
                         </div>
                     </div>
                 </div>
+
+
+                {/* seven */}
+
             </div>
         </>
     )

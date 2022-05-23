@@ -23,6 +23,8 @@ const FAQ = () => {
                 <Titlebar title='Frequently ' span='Asked Question' para='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.' />
 
                 <Faq />
+                {/*  */}
+
 
                 <div className="container paymentmenthod">
 
@@ -36,92 +38,102 @@ const FAQ = () => {
                     </div>
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-12">
-                            <div className="accordion" id="accordionExample">
+
+                            <div className="accordion" id="accordionExample5">
                                 <div className="accordion-item">
-                                    <h2 className="accordion-header" id="headingOne">
-                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="true" aria-controls="collapseseven">
-                                            How to Register Online in The DOQU App ?
+                                    <h2 className="accordion-header" id="headingEX1">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEX1" aria-expanded="false" aria-controls="collapseEX1">
+                                            How to Invest My Money using crwdcapital Online ?
                                         </button>
                                     </h2>
-                                    <div id="collapseseven" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div className="accordion-body">
-
-                                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="accordion-item">
-                                    <h2 className="accordion-header" id="headingTwo">
-                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                            How to Top-Up The DOQU E-Wallet Online ?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseEight" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div id="collapseEX1" className="accordion-collapse collapse show" aria-labelledby="headingEX1" data-bs-parent="#accordionExample5">
                                         <div className="accordion-body">
 
                                             <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
                                         </div>
                                     </div>
                                 </div>
+
+                                {/* eigth */}
+
                                 <div className="accordion-item">
-                                    <h2 className="accordion-header" id="headingOne">
-                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNin" aria-expanded="true" aria-controls="collapseNin">
-                                            How to Register Online in The DOQU App ?
+                                    <h2 className="accordion-header" id="headingEx2">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEx2" aria-expanded="false" aria-controls="collapseEx2">
+                                            How to Invest My Money using crwdcapital Online ?
                                         </button>
                                     </h2>
-                                    <div id="collapseNin" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div id="collapseEx2" className="accordion-collapse collapse" aria-labelledby="headingEx2" data-bs-parent="#accordionExample5">
                                         <div className="accordion-body">
 
                                             <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-
                                         </div>
                                     </div>
                                 </div>
+
+                                {/* nine */}
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="headingEx3">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEx3" aria-expanded="false" aria-controls="collapseEx3">
+                                            How to Invest My Money using crwdcapital Online ?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEx3" className="accordion-collapse collapse" aria-labelledby="headingEx3" data-bs-parent="#accordionExample5">
+                                        <div className="accordion-body">
+
+                                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                         <div className="col-lg-6  col-md-6 col-sm-12">
-                            <div className="accordion" id="accordionExample">
+                            <div className="accordion" id="accordionExample2">
                                 <div className="accordion-item">
-                                    <h2 className="accordion-header" id="headingOne">
-                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                            How to Register Online in The DOQU App ?
+                                    <h2 className="accordion-header" id="headingSeven">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                            How to Invest My Money using crwdcapital Online ?
                                         </button>
                                     </h2>
-                                    <div id="collapseFour" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div className="accordion-body">
-
-                                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="accordion-item">
-                                    <h2 className="accordion-header" id="headingTwo">
-                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                            How to Top-Up The DOQU E-Wallet Online ?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div id="collapseSeven" className="accordion-collapse collapse show" aria-labelledby="headingSeven" data-bs-parent="#accordionExample2">
                                         <div className="accordion-body">
 
                                             <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
                                         </div>
                                     </div>
                                 </div>
+
+                                {/* eigth */}
+
                                 <div className="accordion-item">
-                                    <h2 className="accordion-header" id="headingThree">
-                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                            How to Invest My Money using DOQU Online ?
+                                    <h2 className="accordion-header" id="headingEigt">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEigt" aria-expanded="false" aria-controls="collapseEigt">
+                                            How to Invest My Money using crwdcapital Online ?
                                         </button>
                                     </h2>
-                                    <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div id="collapseEigt" className="accordion-collapse collapse" aria-labelledby="headingEigt" data-bs-parent="#accordionExample2">
                                         <div className="accordion-body">
 
                                             <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
                                         </div>
                                     </div>
                                 </div>
+
+                                {/* nine */}
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="headingNine">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                            How to Invest My Money using crwdcapital Online ?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseNine" className="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample2">
+                                        <div className="accordion-body">
+
+                                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
