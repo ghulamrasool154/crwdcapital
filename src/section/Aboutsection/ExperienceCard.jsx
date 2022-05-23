@@ -24,8 +24,11 @@ const ExperienceCard = (props) => {
     return (
         <>
 
-            <span className='icon'> <img src={experinceicon} alt="exprience icon" /></span>
-            <h2>{count} <span>+</span> </h2>
+            <span className='icon'>
+                {/* <img src={experinceicon} alt="exprience icon" /> */}
+                <i aria-hidden="true" class="jki jki-badge-light"></i>
+            </span>
+            <h2 className='ex-year'>{count} <span className='iconplus'>+</span> </h2>
             <p>{label}</p>
 
         </>

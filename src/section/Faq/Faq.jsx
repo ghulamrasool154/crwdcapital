@@ -4,7 +4,7 @@ import Accordion from '../../abstructComponents/accodrion/Accordion'
 import Button from '../../abstructComponents/button/Button'
 import Iconwidget from '../../abstructComponents/iconwidget/Iconwidget'
 import Titlediscription from '../../abstructComponents/titlediscription/Titlediscription'
-import faqimg from '../../assets/images/faq.PNG'
+import faqimg from '../../assets/images/crwdfaq.png'
 
 import './faq.scss'
 const Faq = () => {

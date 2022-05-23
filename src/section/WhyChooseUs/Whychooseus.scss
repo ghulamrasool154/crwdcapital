@@ -91,6 +91,16 @@
 
     .contextside {
       padding: 10% 15% 10% 15%;
+
+      
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .container-fluid {
+      .contextside {
+        padding: 33px 35px 35px 35px;
+      }
     }
   }
 }

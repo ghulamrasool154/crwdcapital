@@ -8,6 +8,7 @@
     .about {
       width: 100%;
       position: relative;
+      padding-right: 20px;
       img:hover {
         animation-name: elementor-animation-bob-float, elementor-animation-bob;
         animation-duration: 0.3s, 1.5s;
@@ -33,6 +34,17 @@
 
         // height: 180px;
 
+        h2.ex-year {
+          position: relative;
+        }
+        span.iconplus {
+          position: relative;
+          top: -10px;
+          left: 0;
+          font-size: 25px;
+          color: #00cfe5;
+          font-weight: bold;
+        }
         h1 {
           color: #000000;
           font-size: 24px;
@@ -42,9 +54,21 @@
             font-size: 20px;
           }
         }
+        .jki-badge-light::before {
+          content: "\fb36";
+        }
         span.icon {
-          svg {
-            fill: #00cfe5;
+          font-size: 60px;
+          background: transparent;
+          // background-image: radial-gradient(
+          //   at top left,
+          //   #9bf6ff 0%,
+          //   #00cfe5 50%
+          // );
+          // -webkit-background-clip: text;
+          // -webkit-text-fill-color: transparent;
+          i {
+            color: #00cfe5;
             font-size: 60px;
           }
         }
@@ -65,17 +89,17 @@
       padding: 0;
       list-style: none;
       width: 100%;
-      margin-bottom: 30px;
+      padding-bottom: 30px;
       li {
         width: 50%;
         color: #d1d1d1c2;
         font-family: NeueHaasRoman;
 
         span {
-          svg {
-            fill: #00cfe5;
-            font-size: 25px;
-            margin-right: 15px;
+          i {
+            color: #00cfe5;
+            font-size: 15px;
+            margin-right: 10px;
           }
         }
       }
@@ -125,7 +149,9 @@
     .leftside {
       .about {
         padding-bottom: 40px;
-
+        padding-right: 0px;
+        width: 70%;
+        margin: auto;
         .boxexperience {
           bottom: 24%;
           right: 30%;
@@ -153,6 +179,11 @@
     }
   }
   @media screen and (max-width: 600px) {
+    .leftside {
+      .about {
+        width: 100%;
+      }
+    }
     .rightside {
       .signaturesection {
         .inner {

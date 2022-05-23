@@ -83,6 +83,11 @@ input.submit {
   -webkit-font-smoothing: antialiased;
 }
 
+.titlebarsize {
+  max-width: 600px;
+  margin: auto;
+}
+
 @media screen and (max-width: 1200px) {
   // .newletter,
   .Singlenew,
@@ -98,12 +103,18 @@ input.submit {
   .aboutcompany {
     padding: 80px 0px 80px 0px;
   }
-  .OurServices,
+  // .OurServices,
   .newletter {
     padding: 0 0px 80px 0px;
   }
+  .OurServices {
+    padding: 40px 0px 40px 0px;
+  }
+  // .Services .OurServices {
+  //   padding: 40px 0px 40px 0px;
+  // }
 }
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 1024px) {
   .newletter,
   .Singlenew,
   .googlemap,
@@ -114,24 +125,81 @@ input.submit {
   .faq,
   .compunies,
   .ClientReview,
-  .news,
-  .aboutcompany {
-    padding: 40px 0px 40px 0px;
-  }
 
+  .aboutcompany {
+    padding: 40px 30px 40px 30px;
+  }
+  .news {
+    padding: 40px 30px 0px 30px;
+  }
   .Services .OurServices {
-    padding: 40px 0px 40px 0px;
+    padding: 40px 30px 40px 30px;
   }
   .OurServices,
   .FinancialNeeds {
-    padding: 40px 0 20px 0;
+    padding: 40px 30px 20px 30px;
   }
 
-  // .news,
-  .faq,
-  .FinancialNeeds,
-  section.compunies {
-    // border-bottom: 1px solid rgba(255, 255, 255, 0.0901960784);
-    // border-top: 1px solid rgba(255, 255, 255, 0.0901960784);
+  // // .news,
+  // .faq,
+  // .FinancialNeeds,
+  // section.compunies {
+  //   // border-bottom: 1px solid rgba(255, 255, 255, 0.0901960784);
+  //   // border-top: 1px solid rgba(255, 255, 255, 0.0901960784);
+  // // }
+
+  // .DownloadNow {
+  //   .container-fluid {
+  //     .rightisde {
+  //       .stores {
+  //         justify-content: start;
+  //       }
+  //     }
+  //   }
+  // }
+  .DownloadNow,
+  .faq {
+    .IconwidgetBOX {
+      justify-content: start;
+    }
+    .Titlediscription {
+      p,
+      .title {
+        text-align: start;
+      }
+    }
   }
+}
+
+@media screen and (max-width: 768px) {
+  .FAQ {
+    .faq {
+      .leftside {
+        padding-left: 0;
+        padding-right: 0;
+        // margin: auto;
+        text-align: center;
+      }
+      .imgbox {
+        padding-top: 24px;
+      }
+    }
+  }
+  .DownloadNow,
+  .faq {
+    .IconwidgetBOX {
+      justify-content: center;
+    }
+    .Titlediscription {
+      p,
+      .title {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.jki.jki-send-line:before {
+  content: "\efd9";
+  padding-right: 8px;
 }

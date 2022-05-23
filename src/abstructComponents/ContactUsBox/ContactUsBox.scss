@@ -23,9 +23,13 @@
       justify-content: center;
       margin-right: 15px;
       .icon {
+        i,
         svg {
-          font-size: 25px;
+          font-size: 20px;
         }
+      }
+      i.jki.jki-envelope3-light:before {
+        content: "\fa14";
       }
     }
 
@@ -44,7 +48,8 @@
       }
     }
   }
-  .contact:hover .icon-sec {
+  // .contact:hover .icon-sec {
+  .icon-sec:hover {
     transform: translateY(-8px);
   }
 }

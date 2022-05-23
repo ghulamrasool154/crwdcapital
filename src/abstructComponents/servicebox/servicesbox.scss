@@ -36,11 +36,19 @@
     font-size: 15px;
     color: #00cfe5;
     cursor: pointer;
+    text-transform: capitalize;
     span {
       svg {
         font-size: 25px;
       }
     }
+    // &:hover {
+    //   background-color: #00cfe5;
+    //   color: white;
+    //   border-radius: 5px;
+    //   display: inline-block;
+    //   line-height: 0.7;
+    // }
   }
 }
 

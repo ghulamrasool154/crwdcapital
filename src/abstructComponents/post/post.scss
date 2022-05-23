@@ -47,7 +47,13 @@
   }
 }
 
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 1025px) {
+  .post {
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .post {
     text-align: center;
   }

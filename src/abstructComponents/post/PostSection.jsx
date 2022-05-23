@@ -25,7 +25,7 @@ const PostSection = (props) => {
 
                     <p className="disc">{props.value.disc}</p>
                     <Link to={`/blog/` + props.value.id}>
-                        <p className='readmore'> readmore  <span><BsArrowRightShort /></span></p>
+                        <p className='readmore'> read more  <span><BsArrowRightShort /></span></p>
                     </Link>
                 </div>
 

@@ -2,11 +2,10 @@ import React from 'react'
 
 import './teamcard.scss'
 
-import { NavLink } from 'react-router-dom'
 const Teamcard = (props) => {
     return (
         <>
-            <div className="col-lg-4 col-md-6 col-sm-12">
+            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
 
                 <div className="teamcart">
                     <div className="fortend">

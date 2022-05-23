@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import './Singlenew.scss'
-import { BsClock, BsPersonCircle } from "react-icons/bs";
 
 import img1 from '../../assets/images/111.jpg'
 import img2 from '../../assets/images/222.jpg'
 
-import { BsFacebook, BsTwitter, BsInstagram, BsPinterest, BsLinkedin } from "react-icons/bs";
-import Button from '../../abstructComponents/button/Button';
+import { BsTwitter } from "react-icons/bs";
 import Sidebar from '../../abstructComponents/sidebar/Sidebar';
 import { useParams } from 'react-router-dom';
 import { Posts } from '../../api/Posts';
@@ -41,7 +39,7 @@ const Singlenew = () => {
                     <div className="row">
 
                         {
-                            singlepost ? <><div className="col-lg-8 col-md-7 col-sm-12">
+                            singlepost ? <><div className="col-lg-8 col-md-12 col-sm-12">
                                 <h1 className='title'>{singlepost.name}</h1>
 
 
@@ -162,7 +160,7 @@ const Singlenew = () => {
                             </div></> : ''
                         }
 
-                        <div className="col-lg-4  col-md-5 col-sm-12">
+                        <div className="col-lg-4  col-md-12 col-sm-12">
                             <Sidebar />
                         </div>
                     </div>

@@ -20,7 +20,7 @@ const Newlatter = () => {
                                 <span><i className="fa-solid fa-paper-plane"></i></span> Sing Up
                             </Link> */}
                             <button className='btn-desin' type='submit'>
-                                <span><i className="fa-solid fa-paper-plane"></i></span> Sing Up
+                                <span> <i className="jki jki-send-line"></i></span> Sing Up
                             </button>
                         </form>
                     </div>

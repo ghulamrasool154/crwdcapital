@@ -67,7 +67,7 @@ const Contactus = () => {
                                     <ContactUsBox icon={<BsGeoAlt />} title='Location' para='Puputan Renon, DPS' />
                                     <ContactUsBox icon={<BsStopwatch />} title='Opening Hours' para='09:00 AM - 20:00 PM' />
                                     <ContactUsBox icon={<BsTelephone />} title='Contact' para='+62 123-432-543' />
-                                    <ContactUsBox icon={<BsEnvelopeFill />} title='Email' para='Doqubank@mail.com' />
+                                    <ContactUsBox icon={<i className="jki jki-envelope3-light"></i>} title='Email' para='Doqubank@mail.com' />
 
 
                                 </div>

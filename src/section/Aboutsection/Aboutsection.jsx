@@ -1,13 +1,14 @@
 import React from 'react'
 import './aboutsection.scss'
 
-import company from '../../assets/images/about.PNG'
+import company from '../../assets/images/crwdabout.png'
+// import company2 from '../../assets/images/about12.png'
 
-import { BsCheck, BsFillAwardFill } from "react-icons/bs"
 import Iconwidget from '../../abstructComponents/iconwidget/Iconwidget'
 import Titlediscription from '../../abstructComponents/titlediscription/Titlediscription'
 import Button from '../../abstructComponents/button/Button'
-
+// import img1 from '../../assets/images/aboutoneside.png'
+// import img2 from '../../assets/images/aboutsecondside.png'
 import ExperData from '../../components/propssdata/ExperData.json';
 import ExperienceCard from './ExperienceCard'
 import { Link } from 'react-router-dom'
@@ -21,14 +22,17 @@ const Aboutsection = () => {
 
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 leftside">
+                        <div className="col-lg-6 col-md-12 col-sm-12 leftside">
                             <div className="about">
-                                <img src={company} alt="" className='w-100' />
+                                <img src={company} alt="" className='aboutimagemasking w-100' />
+                                {/* <img src={img1} alt="" className='img-fluid' />
+                                <img src={img2} alt="" className='img-fluid' /> */}
 
                                 <div className='boxexperience' >
                                     {
                                         ExperData.counts.map((value) => {
-                                            return < ExperienceCard key={value.id} data={value} />
+                                            return < ExperienceCard key={value.id}
+                                                data={value} />
                                         }
                                         )
                                     }
@@ -36,17 +40,17 @@ const Aboutsection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 col-md-12 col-sm-12 p-0">
                             <div className='rightside'>
                                 <Iconwidget text='About Us' />
 
                                 <Titlediscription title="Let's Makes Your Finance Activity" span="Going Digitalize" para=' Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.' />
 
                                 <ul className='list'>
-                                    <li> <span><BsCheck /></span>Good Interface</li>
-                                    <li> <span><BsCheck /></span>Safety Payment</li>
-                                    <li><span><BsCheck /></span>Bunch Of Feature</li>
-                                    <li><span><BsCheck /></span>Customer Support</li>
+                                    <li> <span><i className="fas fa-check"></i></span>Good Interface</li>
+                                    <li> <span><i className="fas fa-check"></i></span>Safety Payment</li>
+                                    <li><span><i className="fas fa-check"></i></span>Bunch Of Feature</li>
+                                    <li><span><i className="fas fa-check"></i></span>Customer Support</li>
                                 </ul>
 
                                 <Link to="#">

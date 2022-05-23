@@ -37,6 +37,14 @@
     border: 1px solid #d1d1d1;
     border-radius: 5px 5px 5px 5px;
   }
+
+  @media screen and (max-width: 1025px) {
+    .accordion-button {
+      padding: 10px 20px;
+
+      font-size: 15px;
+    }
+  }
   @media screen and (max-width: 768px) {
     .accordion-button {
       font-size: 15px;

@@ -11,9 +11,12 @@ const ServiceSection = () => {
 
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-7  m-auto">
-                        <Iconwidget text='Our Services' />
-                        <Titlediscription title='Our Latest Technology & ' span='Interesting Features' para="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus." />
+                    <div className="col-12  m-auto">
+                        <div className="titlebarsize">
+
+                            <Iconwidget text='Our Services' />
+                            <Titlediscription title='Our Latest Technology & ' span='Interesting Features' para="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus." />
+                        </div>
 
                     </div>
                 </div>

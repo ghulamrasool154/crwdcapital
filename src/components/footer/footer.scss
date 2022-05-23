@@ -24,7 +24,7 @@ footer {
   .footernabar {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   hr {
     border: 1px solid #d1d1d117;
@@ -38,14 +38,25 @@ footer {
   }
 }
 
+@media screen and (max-width: 1025px) {
+  footer {
+    .col-lg-3,
+    .col-lg-5,
+    .col-lg-4 {
+      flex: 0 0 auto;
+      width: 100% !important;
+      margin: auto;
+      text-align: center;
+    }
+    .footernabar {
+      gap: 20px;
+      justify-content: center;
+    }
+  }
+}
+
 @media screen and (max-width: 993px) {
   footer {
-    .footernabar {
-      display: flex;
-      justify-content: center;
-      list-style: none;
-      gap: 40px;
-    }
     .logoname {
       text-align: center;
       display: block;

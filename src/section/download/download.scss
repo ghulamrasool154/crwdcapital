@@ -20,8 +20,8 @@
 
       .stores {
         display: flex;
-        animation-name: fadeInUp;
-        animation-duration: 10s;
+        // animation-name: fadeInUp;
+        animation-duration: 2s;
         margin-top: 20px;
 
         img {
@@ -38,9 +38,18 @@
     }
   }
 
-  @media screen and (max-width: 993px) {
+  @media screen and (max-width: 1024px) {
     .container-fluid {
-      padding: 40px 0px 40px 0px;
+      padding: 40px 30px 40px 30px;
+      .rightisde {
+        .stores {
+          justify-content: start;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .container-fluid {
       .rightisde {
         .stores {
           justify-content: center;

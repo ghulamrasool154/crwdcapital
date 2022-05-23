@@ -2,15 +2,15 @@ import React from 'react'
 import './Titlediscription.scss'
 const Titlediscription = (props) => {
     return (
-        <span className='Titlediscription'>
+        <div className='Titlediscription'>
 
-            <h1 className='title'>
+            <h2 className='title'>
                 {props.title} <br /><span>{props.span}</span>
-            </h1>
+            </h2>
             <p className='para'>
                 {props.para}
             </p>
-        </span>
+        </div>
     )
 }
 

@@ -37,15 +37,10 @@ const Footer = () => {
                         <ul className='footernabar right d-flex'>
 
                             <li>
-
-
-
-
-
-                                <NavLink to="#">Privacy Policy</NavLink>
+                                <NavLink to="/">Privacy Policy</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/contactus">Terms Condition</NavLink>
+                                <NavLink to="/">Terms Condition</NavLink>
                             </li>
                         </ul>
                     </div>
@@ -56,7 +51,6 @@ const Footer = () => {
                     <div className="col-lg-12">
                         <p className='text-center m-0'>
                             © 2022 crwdcapital
-
                         </p>
                     </div>
                 </div>

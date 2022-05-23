@@ -47,9 +47,9 @@ const Home = () => {
                             <div className="row">
                                 <div className="col-lg-6 col-md-12 col-sm-12 forcontext">
                                     <div className="leftside">
-                                        <Iconwidget text='Crwdcapital Digital Bank' />
+                                        <Iconwidget text='CrwdCapital  Digital Bank' />
                                         <div className="heading-section-title ">
-                                            <Titlediscription title='The Only Professionals & ' span='Secure Digital Bank' para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." />
+                                            <Titlediscription title='The Only Professionals & Secure ' span='Digital Bank' para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." />
 
                                         </div>
                                         <div className='count'>

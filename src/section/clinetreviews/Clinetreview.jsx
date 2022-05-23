@@ -8,9 +8,11 @@ const Clinetreview = () => {
         <section className='ClientReview'>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-7 text-center m-auto">
-                        <Iconwidget text='Client Review' />
-                        <Titlediscription title='What Our Client Says About ' span='Our Service' para='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.' />
+                    <div className="col-12 text-center m-auto">
+                        <div className="titlebarsize">
+                            <Iconwidget text='Client Review' />
+                            <Titlediscription title='What Our Client Says About ' span='Our Service' para='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.' />
+                        </div>
 
                     </div>
                 </div>

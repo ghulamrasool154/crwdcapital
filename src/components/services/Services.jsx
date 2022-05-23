@@ -29,9 +29,12 @@ const Services = () => {
         <section className='news and blog'>
           <div className="container">
             <div className="row">
-              <div className="col-lg-6 text-center m-auto headingcustom">
-                <Iconwidget text='Our News' />
-                <Titlediscription title='News ' span='& Article' para='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.' />
+              <div className="col-12 text-center m-auto headingcustom">
+
+                <div className="titlebarsize">
+                  <Iconwidget text='Our News' />
+                  <Titlediscription title='News ' span='& Article' para='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.' />
+                </div>
               </div>
             </div>
 

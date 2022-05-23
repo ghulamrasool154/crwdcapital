@@ -41,7 +41,7 @@
       background-color: transparent;
       background-image: radial-gradient(at top left, #9bf6ff 0%, #00cfe5 50%);
       border-radius: 0 5px 5px 0;
-      padding: 14px 33px 14px 33px;
+      flex: 0 0 140px;
       border: 1px solid #00cfe5;
     }
   }
@@ -53,11 +53,16 @@
     }
   }
   @media screen and (max-width: 768px) {
+
+    
     .emailform {
       flex-direction: column;
       input {
         border-radius: 5px;
         margin-bottom: 15px;
+      }
+      .btn-desin {
+        flex: 0 0 50px;
       }
       .custombutton button {
         border-radius: 5px 5px 5px 5px;

@@ -5,9 +5,9 @@
   border-width: 1px 1px 1px 1px;
   border-color: #ffffff17;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-  margin: 0px 20px 0px 0px;
-  --e-column-margin-right: 20px;
-  --e-column-margin-left: 0px;
+  // margin: 0px 20px 0px 0px;
+  // --e-column-margin-right: 20px;
+  // --e-column-margin-left: 0px;
   padding: 30px 25px 30px 25px;
   border-radius: 10px;
   .context {
@@ -17,7 +17,7 @@
       text-align: start;
 
       h1 {
-        font-size: 20px;
+        font-size: 24px;
         text-transform: capitalize;
         color: white;
         letter-spacing: 1px;
@@ -25,6 +25,7 @@
       p {
         color: rgba(209, 209, 209, 0.7607843137);
         font-size: 16px;
+        margin-bottom: 0;
       }
     }
 
@@ -67,7 +68,7 @@
   }
   hr.linebar {
     border: 1px solid #363636;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
   .bottom {
     .iconitem {
@@ -75,12 +76,12 @@
       justify-content: space-evenly;
       align-items: center;
       span.listicon {
-        font-size: 15px;
+        // font-size: 15px;
         color: #ffffffb3;
-        padding-left: 10px;
+        // padding-left: 10px;
         i {
           color: white;
-          font-size: 30px;
+          font-size: 35px;
           cursor: pointer;
           &:hover {
             color: #00cfe5;
@@ -117,11 +118,11 @@
     margin-bottom: 20px;
     .context {
       justify-content: center;
-      .text {
-        h1 {
-          font-size: 20px;
-        }
-      }
+      // .text {
+      //   h1 {
+      //     font-size: 20px;
+      //   }
+      // }
     }
   }
 }

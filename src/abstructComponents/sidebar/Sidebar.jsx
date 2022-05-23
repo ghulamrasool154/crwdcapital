@@ -24,7 +24,7 @@ const Sidebar = () => {
 
                         <button className='signupbutton' type='submit'>
 
-                            <i className="fa-solid fa-paper-plane"></i>
+                            <i className="jki jki-send-line"></i>
                             Sing Up
                         </button>
                     </form>

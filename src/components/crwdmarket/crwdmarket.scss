@@ -12,15 +12,18 @@
     }
   }
   .hotdeals {
-    h2 {
-      color: #ffffff;
-      font-size: 24px;
-    }
-    p {
-      color: #00cfe5;
-      cursor: pointer;
-      display: inline;
-      text-transform: capitalize;
+    .rightside,
+    .leftside {
+      h2 {
+        color: #ffffff;
+        font-size: 24px;
+      }
+      p {
+        color: #00cfe5;
+        cursor: pointer;
+        display: inline;
+        text-transform: capitalize;
+      }
     }
     .leftside {
       background-image: url("../../assets/images/wireless-on-ear-headphones-on-black-background.jpg");
@@ -51,16 +54,21 @@
   .branddeals {
     padding: 50px 0px 160px 0px;
 
-    h2 {
-      color: #ffffff;
-      font-size: 24px;
+    .leftside,
+    .rightside,
+    .centerside {
+      h2 {
+        color: #ffffff;
+        font-size: 24px;
+      }
+      p {
+        color: #00cfe5;
+        cursor: pointer;
+        display: inline;
+        text-transform: capitalize;
+      }
     }
-    p {
-      color: #00cfe5;
-      cursor: pointer;
-      display: inline;
-      text-transform: capitalize;
-    }
+
     .leftside {
       background-image: url("../../assets/images/left.jpg");
       background-position: center center;
@@ -172,6 +180,16 @@
           margin: -65px 0 0px 0;
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .crwdmarket {
+    .hotdeals,
+    .branddeals,
+    .compunies {
+      padding: 0 30px;
     }
   }
 }

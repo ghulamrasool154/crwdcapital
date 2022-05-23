@@ -2,7 +2,7 @@
   display: inline-block;
 }
 .Iconwidget {
-  margin: 0px 0px 30px 0px;
+  margin: 0px 0px 20px 0px;
   padding: 7px 12px 7px 12px;
   background-color: transparent;
   background-image: radial-gradient(at top left, #dadada6b 0%, #78787891 100%);
@@ -10,8 +10,6 @@
   border-width: 1px 1px 1px 1px;
   border-color: #d1d1d159;
   border-radius: 5px 5px 5px 5px;
-  // width: 170px;
-  padding: 8px 20px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -28,7 +26,7 @@
   span.text {
     font-size: 14px;
     color: #d1d1d1;
-    padding-left: 10px;
+    padding-left: 5px;
     font-family: "NeueHaasRoman";
   }
 }

@@ -11,7 +11,7 @@ const Testimonialsilder = () => {
 
 
     var settings = {
-        dots: true,
+        dots: false,
         autoplay: true,
         infinite: true,
         speed: 500,

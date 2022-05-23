@@ -159,8 +159,13 @@
     }
   }
 }
+
 @media screen and (max-width: 993px) {
   .Singlenew {
+    .posterimg {
+      width: 90%;
+      margin: auto;
+    }
     h1.title {
       font-size: 40px;
       line-height: 50px;
@@ -169,6 +174,11 @@
 }
 @media screen and (max-width: 768px) {
   .Singlenew {
+    .posterimg {
+      width: 100%;
+      margin: auto;
+    }
+
     .tagsandshare {
       flex-direction: column;
       .title {
@@ -194,6 +204,14 @@
     h1.title {
       font-size: 30px;
       line-height: 40px;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .Singlenew {
+    h1.title {
+      font-size: 25px;
+      line-height: 30px;
     }
   }
 }

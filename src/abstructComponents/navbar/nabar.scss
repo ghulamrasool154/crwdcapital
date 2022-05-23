@@ -3,16 +3,20 @@
   color: #00cfe5;
 }
 
+div#navbarSupportedContent {
+  padding-left: 35px;
+}
+
 nav.navbar {
   .navbar-nav {
     .nav-link {
-      font-size: 20px;
-      // font-weight: 500;
-      padding: 0px 20px 0px 0px;
+      font-size: 17px;
+      font-weight: 400;
+      padding: 0px 15px 0px 15px;
       color: #ffffff;
       font-family: Neuropol_X_Light;
       line-height: 2;
-
+      text-transform: capitalize;
       &:hover {
         color: #00cfe5;
       }
@@ -23,14 +27,14 @@ nav.navbar {
 
     li.nav-item.dropdown:hover .dropdown-menu {
       display: block !important;
-      font-size: 20px;
+      font-size: 16px;
       padding: 10px 10px 10px 10px;
       background-color: #0c0c0c;
       border-radius: 5px 5px 5px 5px;
       min-width: 220px;
-      font-family: Neuropol_X_Light !important;
       border: 1px solid #8080803d;
       font-family: Neuropol_X_Light;
+      text-transform: capitalize;
 
       // margin-top: 10px;
       :hover {

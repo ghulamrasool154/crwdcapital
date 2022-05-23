@@ -8,17 +8,20 @@
         display: none;
       }
     }
-
+    .custombutton {
+      display: inline-block;
+      margin-top: 30px;
+    }
     p {
       color: #d1d1d1;
       font-family: NeueHaasRoman;
-
       font-size: 16px;
       font-weight: 300;
     }
   }
   .righside {
     .imgbox {
+      padding-left: 20px;
       img:hover {
         animation-name: elementor-animation-bob-float, elementor-animation-bob;
         animation-duration: 0.3s, 1.5s;
@@ -31,13 +34,43 @@
     }
   }
 }
+
+@media screen and (max-width: 993px) {
+  // .faq {
+  //   .righside {
+  //     .imgbox {
+  //       width: 70%;
+  //       margin: auto;
+  //       padding-top: 30px;
+  //     }
+  //   }
+  // }
+}
 @media screen and (max-width: 768px) {
   .faq {
     .leftside {
       // padding-top: 40px;
-      padding-left: 20px;
+      padding-left: 0;
       // padding-bottom: 40px;
-      padding-right: 20px;
+      padding-right: 0px;
+    }
+    .righside {
+      .imgbox {
+        width: 70%;
+        margin: auto;
+        padding-top: 30px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .faq {
+    .righside {
+      .imgbox {
+        width: 100%;
+        margin: auto;
+        padding-top: 30px;
+      }
     }
   }
 }

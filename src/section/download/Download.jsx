@@ -21,7 +21,7 @@ const Download = () => {
                             <Titlediscription title='Download and Register From ' span='GThe Mobile App' para='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.
 ' />
 
-                            <div className='stores'>
+                            <div className='stores wow animate__fadeInUp'>
                                 <div style={{ width: '140px', marginRight: '10px' }} className='img'>
                                     <img src={playstore} alt="apple store" className='w-100' />
                                 </div>

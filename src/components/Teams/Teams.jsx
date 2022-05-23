@@ -20,9 +20,12 @@ const Teams = () => {
                 <section className='OurTeams'>
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-6 text-center m-auto">
-                                <Iconwidget text='Our Teams' />
-                                <Titlediscription title='Our Expert ' span='Teams' para='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.' />
+                            <div className="col-lg-12 text-center m-auto">
+                                <div className="titlebarsize">
+
+                                    <Iconwidget text='Our Teams' />
+                                    <Titlediscription title='Our Expert ' span='Teams' para='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.' />
+                                </div>
 
                             </div>
                         </div>
@@ -41,14 +44,16 @@ const Teams = () => {
                     <div className="container-fluid">
                         <div className="container">
                             <div className="row">
-                                <div className="col-lg-7 text-center m-auto">
+                                <div className="col-12 text-center m-auto">
+                                    <div className="titlebarsize">
 
-                                    <Iconwidget text='Contact Us' />
-                                    <Titlediscription title="Get Better Knowledge & Info" span="About Our Product" para="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus." />
+                                        <Iconwidget text='Contact Us' />
+                                        <Titlediscription title="Get Better Knowledge & Info" span="About Our Product" para="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus." />
 
-                                    <Link to='/contactus'>
-                                        <Button title='Contact Us' />
-                                    </Link>
+                                        <Link to='/contactus'>
+                                            <Button title='Contact Us' />
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>

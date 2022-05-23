@@ -11,10 +11,13 @@ const FinancialNeeds = () => {
         <section className='FinancialNeeds'>
             <div className="container ">
                 <div className="row">
-                    <div className="col-lg-7  m-auto">
-                        <Iconwidget text='Key Feature' />
-                        <Titlediscription title="A Complete Financial Needs" span="In One App" para="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
-                        />
+                    <div className="col-12  m-auto">
+                        <div className='titlebarsize'>
+
+                            <Iconwidget text='Key Feature' />
+                            <Titlediscription title="A Complete Financial Needs" span="In One App" para="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+                            />
+                        </div>
 
                     </div>
                 </div>
@@ -22,7 +25,7 @@ const FinancialNeeds = () => {
 
 
                 <div className="row mobileCoulum">
-                    <div className="col-lg-4 col-md-12 col-sm-12 mobileMax">
+                    <div className="col-lg-4 col-md-6 col-sm-12 mobileMax">
                         <Box
 
                             icon={<i aria-hidden="true" className="jki jki-dollar-light"></i>}
@@ -35,7 +38,7 @@ const FinancialNeeds = () => {
                         />
 
                     </div>
-                    <div className="col-lg-4 col-md-12 col-sm-12 mobileMax centerbox">
+                    <div className="col-lg-4 col-md-6 col-sm-12 mobileMax centerbox">
                         <Box
                             icon={<i className='fas fa-shield-alt'></i>}
                             title='High Security'
@@ -46,7 +49,7 @@ const FinancialNeeds = () => {
                             listicon4="OTP-Message"
                         />
                     </div>
-                    <div className="col-lg-4 col-md-12 col-sm-12 mobileMax">
+                    <div className="col-lg-4 col-md-6 col-sm-12 mobileMax">
                         <Box
                             icon={<i className='jki jki-smartphone2-light' />}
                             title='100% Digital'

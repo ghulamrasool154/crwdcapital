@@ -11,6 +11,10 @@ import { NavLink, Link } from 'react-router-dom'
 const Header = () => {
 
     const [toggle, setToggle] = useState(false);
+
+    const toggleNavbar = () => {
+        setToggle(!toggle)
+    }
     return (
         <header className='header'>
             <div className="container-fluid  transparant-color">
@@ -39,7 +43,7 @@ const Header = () => {
                         <div className='divlogo'>
                             <Logo />
                         </div>
-                        <div className='navdiv' onClick={() => setToggle(!toggle)}>
+                        <div className='navdiv' onClick={toggleNavbar}>
                             {/* <BsListUl /> */}
 
                             <i aria-hidden="true" className="jki jki-burger-menu-light"></i>
@@ -57,9 +61,9 @@ const Header = () => {
                         <div className='layout lyoutss' style={{
                             left: toggle ? '0' : ''
                         }}  >
-                            <ResponsiveNavbar />
+                            <ResponsiveNavbar toggleNavbar={toggleNavbar} />
                             <div className="closebutton"
-                                onClick={() => setToggle(!toggle)}>
+                                onClick={toggleNavbar}>
                                 <BsX />
                             </div>
                         </div>

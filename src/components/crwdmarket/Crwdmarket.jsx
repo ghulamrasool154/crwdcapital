@@ -34,7 +34,7 @@ const Crwdmarket = () => {
                                         </h2>
 
                                         <Link to="/crwdworld/crwdmarket">
-                                            <p> readmore  <span><BsArrowRightShort /></span></p>
+                                            <p> read more  <span><BsArrowRightShort /></span></p>
                                         </Link>
                                     </div>
                                 </div>
@@ -48,7 +48,7 @@ const Crwdmarket = () => {
                                             Payday crwdmarket
                                         </h2>
                                         <Link to="/crwdworld/crwdmarket">
-                                            <p> readmore  <span><BsArrowRightShort /></span></p>
+                                            <p> read more  <span><BsArrowRightShort /></span></p>
                                         </Link>
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@ const Crwdmarket = () => {
                                             Pay Your Bill and Get 30% Cashback
                                         </h2>
                                         <Link to="/crwdworld/crwdmarket">
-                                            <p> readmore  <span><BsArrowRightShort /></span></p>
+                                            <p> read more  <span><BsArrowRightShort /></span></p>
                                         </Link>
                                     </div>
                                 </div>
@@ -87,7 +87,7 @@ const Crwdmarket = () => {
                                             Free Bank Transfer Fee for New User
                                         </h2>
                                         <Link to="/crwdworld/crwdmarket">
-                                            <p> readmore  <span><BsArrowRightShort /></span></p>
+                                            <p> read more  <span><BsArrowRightShort /></span></p>
                                         </Link>
                                     </div>
                                 </div>
@@ -102,7 +102,7 @@ const Crwdmarket = () => {
                                             Free Delivery For Every Alibaba Purchase
                                         </h2>
                                         <Link to="/crwdworld/crwdmarket">
-                                            <p> readmore  <span><BsArrowRightShort /></span></p>
+                                            <p> read more  <span><BsArrowRightShort /></span></p>
                                         </Link>
                                     </div>
                                 </div>

@@ -13,7 +13,7 @@ const Porgressbar = (props) => {
                     <span className="skill-title">{props.title}</span>
                 </div>
                 <div className="skill-bar">
-                    <div className="skill-track" style={{ width: `${props.value}%` }}>
+                    <div className="skill-track wow animate__slideInLeft" style={{ width: `${props.value}%` }}>
                         <div className="number-percentage-wrapper">
                             <span className="number-percentage loaded" >{props.value}%</span>
                         </div>

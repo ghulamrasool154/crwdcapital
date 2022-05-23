@@ -33,23 +33,47 @@
     }
   }
 }
-@media screen and (max-width: 993px) {
-  .Titlebar .overlay {
-    background-image: none;
-  }
+@media screen and (max-width: 1024px) {
   .Titlebar {
-    margin-top: 0;
+    margin-top: -120px;
     text-align: center;
+    .overlay {
+      background-image: none;
+      padding: 110px 0px 40px 0;
+
+      .col-lg-5 {
+        // width: 100% !important;
+        margin: auto;
+      }
+    }
   }
+  // .Titlebar {
+  //   margin-top: 0;
+  // }
   .Titlebar .overlay {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.0901960784);
-    // border-bottom: 1px solid #000;
-    padding: 15px 0 30px 0;
+    // border-bottom: 1px solid rgba(255, 255, 255, 0.0901960784);
+    // // border-bottom: 1px solid #000;
+    // padding: 15px 0 30px 0;
   }
 }
+@media screen and (max-width: 1024px) {
+  .Titlebar {
+    .overlay {
+      .title {
+        font-size: 40px;
+        line-height: 40px;
+      }
+      .para {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   .Titlebar {
     .overlay {
+      padding: 110px 15px 0px 15px;
       .title {
         font-size: 25px;
         line-height: 30px;
