@@ -35,7 +35,7 @@ const FAQ = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row disktop-accodtion">
                         <div className="col-lg-6 col-md-6 col-sm-12">
                             <div className="accordion" id="accordionExample5">
                                 <div className="accordion-item">
@@ -101,6 +101,7 @@ const FAQ = () => {
                                     </div>
                                 </div>
 
+
                                 {/* eigth */}
 
                                 <div className="accordion-item">
@@ -125,6 +126,104 @@ const FAQ = () => {
                                         </button>
                                     </h2>
                                     <div id="collapseNine" className="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample2">
+                                        <div className="accordion-body">
+
+                                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div className="row mobileaccoditon">
+                        <div className="col-lg-6 col-md-6 col-sm-12">
+                            <div className="accordion" id="accordionExample99">
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="headingEX789">
+                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEX789" aria-expanded="false" aria-controls="collapseEX789">
+                                            How to Invest My Money using crwdcapital Online ?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEX789" className="accordion-collapse collapse show" aria-labelledby="headingEX789" data-bs-parent="#accordionExample99">
+                                        <div className="accordion-body">
+
+                                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="headingEx7800">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEx7800" aria-expanded="false" aria-controls="collapseEx7800">
+                                            How to Invest My Money using crwdcapital Online ?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEx7800" className="accordion-collapse collapse" aria-labelledby="headingEx7800" data-bs-parent="#accordionExample99">
+                                        <div className="accordion-body">
+
+                                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* nine */}
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="headingEx5555">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEx5555" aria-expanded="false" aria-controls="collapseEx5555">
+                                            How to Invest My Money using crwdcapital Online ?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEx5555" className="accordion-collapse collapse" aria-labelledby="headingEx5555" data-bs-parent="#accordionExample99">
+                                        <div className="accordion-body">
+
+                                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="headingEx7800oppp">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEx7800oppp" aria-expanded="false" aria-controls="collapseEx7800oppp">
+                                            How to Invest My Money using crwdcapital Online ?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEx7800oppp" className="accordion-collapse collapse" aria-labelledby="headingEx7800oppp" data-bs-parent="#accordionExample99">
+                                        <div className="accordion-body">
+
+                                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* nine */}
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="headingEx55551244">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEx55551244" aria-expanded="false" aria-controls="collapseEx55551244">
+                                            How to Invest My Money using crwdcapital Online ?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEx55551244" className="accordion-collapse collapse" aria-labelledby="headingEx55551244" data-bs-parent="#accordionExample99">
+                                        <div className="accordion-body">
+
+                                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="accordion-item">
+                                    <h2 className="accordion-header" id="headingEx555hdhhdhdh">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEx555hdhhdhdh" aria-expanded="false" aria-controls="collapseEx555hdhhdhdh">
+                                            How to Invest My Money using crwdcapital Online ?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEx555hdhhdhdh" className="accordion-collapse collapse" aria-labelledby="headingEx555hdhhdhdh" data-bs-parent="#accordionExample99">
                                         <div className="accordion-body">
 
                                             <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
@@ -182,7 +281,7 @@ const FAQ = () => {
                         </div>
                         <div className="row">
                             <div className="col-lg-12 text-center m-auto">
-                                <Link to='#'>
+                                <Link to='/crwdworld/news'>
                                     <Button title='View More' />
                                 </Link>
                             </div>

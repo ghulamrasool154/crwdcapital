@@ -45,7 +45,7 @@ const Whychooseus = () => {
                                     <Porgressbar
                                         title="App Safety" value="85" />
                                 </div>
-                                <Link to="#">
+                                <Link to="/contactus">
                                     <Button title="Free Consultation" />
                                 </Link>
 

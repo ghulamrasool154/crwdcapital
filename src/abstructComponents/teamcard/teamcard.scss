@@ -42,6 +42,7 @@
       p {
         color: #d1d1d1;
         font-size: 16px;
+        margin-bottom: 0;
       }
     }
   }
@@ -88,21 +89,41 @@
     }
   }
 
-  @media screen and (max-width: 993px) {
-    .fortend {
-      .profile-card {
-        h2 {
-          font-size: 25px;
-        }
-      }
-    }
-  }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1024px) {
     .fortend {
       .profile-card {
         h2 {
           font-size: 20px;
         }
+      }
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .fortend {
+      .profile-card {
+        h2 {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 620px) {
+    .fortend {
+      .profile-card {
+        padding: 20px 30px 20px 30px;
+        h2 {
+          font-size: 15px;
+        }
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 560px) {
+    .fortend {
+      .profile-card {
+        // padding: 20px 40px 20px 40px;
       }
     }
   }

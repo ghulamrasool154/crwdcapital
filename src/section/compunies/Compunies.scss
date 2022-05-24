@@ -11,3 +11,14 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .compunies {
+    .imagediv {
+      img {
+        width: 100%;
+        max-width: 250px;
+      }
+    }
+  }
+}

@@ -67,9 +67,10 @@ const Home = () => {
 
                                         </div>
 
-                                        <a href="#" target="">
+
+                                        <Link to="/services" >
                                             <Button title='Learn More' />
-                                        </a>
+                                        </Link>
 
 
                                         {/* <div className="learnmore">
@@ -122,7 +123,7 @@ const Home = () => {
                         <div className="row">
                             <div className="col-lg-12 text-center m-auto">
 
-                                <Link to="news">
+                                <Link to="/crwdworld/news">
                                     <Button title='View More' />
                                 </Link>
                             </div>

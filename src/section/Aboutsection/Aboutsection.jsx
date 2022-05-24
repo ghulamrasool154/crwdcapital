@@ -53,7 +53,7 @@ const Aboutsection = () => {
                                     <li><span><i className="fas fa-check"></i></span>Customer Support</li>
                                 </ul>
 
-                                <Link to="#">
+                                <Link to="/aboutus">
                                     <Button title='About Us' />
                                 </Link>
                                 {/* <button className='btn'>About Us</button> */}

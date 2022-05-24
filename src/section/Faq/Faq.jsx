@@ -22,7 +22,7 @@ const Faq = () => {
 
                             <Accordion />
 
-                            <Link to='#'>
+                            <Link to='/services'>
 
                                 <Button title='Learn More' />
                             </Link>

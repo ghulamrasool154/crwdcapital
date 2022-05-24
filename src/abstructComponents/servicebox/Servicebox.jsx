@@ -14,7 +14,7 @@ const Servicebox = (props) => {
                         <h1 className="title">{props.title} </h1>
                         <p className="description">{props.disc}</p>
                     </div>
-                    <Link to='/'>     <p className="icon-box-btn">Learn more <span><BsArrowRightShort /></span></p></Link>
+                    <Link to='/services'>     <p className="icon-box-btn">Learn more <span><BsArrowRightShort /></span></p></Link>
                 </div>
             </div>
         </>

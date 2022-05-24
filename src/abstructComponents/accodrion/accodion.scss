@@ -23,6 +23,9 @@
       }
     }
   }
+  .row.disktop-accodtion {
+    display: block;
+  }
 
   .accordion-button {
     background-color: transparent;
@@ -45,12 +48,6 @@
       padding: 10px 20px;
 
       font-size: 15px;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    .accordion-button {
-      font-size: 15px;
-      padding: 10px 15px;
     }
   }
 }

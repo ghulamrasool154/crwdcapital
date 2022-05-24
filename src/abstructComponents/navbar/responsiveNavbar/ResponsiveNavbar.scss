@@ -60,11 +60,11 @@
         display: block !important;
         font-size: 20px;
         padding: 10px 10px 10px 10px;
-        background-color: #0c0c0c;
+        background-color: black;
         border-radius: 5px 5px 5px 5px;
         max-width: 200px;
         font-family: Neuropol_X_Light !important;
-        border: 1px solid #8080803d;
+        border: none;
         font-family: Neuropol_X_Light;
         color: white;
         // margin-top: 10px;
@@ -73,6 +73,10 @@
           color: #0c0c0c !important;
         }
       }
+    }
+    li.nav-link.mobilemenu {
+      display: flex;
+      justify-content: space-between;
     }
   }
 }

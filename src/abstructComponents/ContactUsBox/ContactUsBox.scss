@@ -48,14 +48,23 @@
       }
     }
   }
-  // .contact:hover .icon-sec {
   .icon-sec:hover {
     transform: translateY(-8px);
   }
 }
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 1200px) {
+  .ContactUsBox {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .ContactUsBox {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 700px) {
   .ContactUsBox {
     width: 100%;
-    // margin: 10px 20px;
   }
 }

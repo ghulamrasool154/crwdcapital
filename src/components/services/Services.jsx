@@ -48,7 +48,7 @@ const Services = () => {
             </div>
             <div className="row">
               <div className="col-lg-12 text-center m-auto">
-                <Link to='#'>
+                <Link to='/crwdworld/news'>
                   <Button title='View More' />
                 </Link>
               </div>
