@@ -1,4 +1,18 @@
 .ResponsiveNavbar {
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .show > .nav-link {
+    color: hsl(186, 100%, 45%);
+  }
+  a.nav-link.active {
+    color: hsl(186, 100%, 45%) !important;
+  }
+  .dropdown-item.active,
+  .dropdown-item:active {
+    color: black !important;
+    text-decoration: none;
+    background-color: #00cfe5;
+  }
+
   .layout {
     position: fixed;
     top: 0;
@@ -31,6 +45,7 @@
           color: #00cfe5;
         }
       }
+
       .dropdown-item.active,
       .dropdown-item:active {
         background-color: #00cfe5;

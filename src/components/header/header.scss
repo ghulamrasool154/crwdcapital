@@ -31,6 +31,7 @@
       .layout.lyoutss {
         transition: left 0.6s cubic-bezier(0.6, 0.1, 0.68, 0.53), width 0.6s;
         left: -350px;
+        // padding: 0 30px;
       }
       .layout {
         position: fixed;
@@ -110,6 +111,7 @@
     }
     .container.mobile-menu {
       display: block !important;
+      padding: 0 30px;
       .navbar {
         .navbar-collapse {
           position: absolute;

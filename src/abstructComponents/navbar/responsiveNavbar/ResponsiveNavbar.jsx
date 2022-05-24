@@ -17,7 +17,7 @@ const ResponsiveNavbar = (props) => {
                 <ul className="navbar-nav">
                     <Logo />
                     <li className="nav-item">
-                        <NavLink className="nav-link active" aria-current="page" to="/" onClick={toggleNavbar}>Home</NavLink>
+                        <NavLink className="nav-link " aria-current="page" to="/" onClick={toggleNavbar}>Home</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink className="nav-link " aria-current="page" to="aboutus" onClick={toggleNavbar}>About us</NavLink>
@@ -27,7 +27,7 @@ const ResponsiveNavbar = (props) => {
                     </li>
 
                     <li className="nav-item dropdown" onClick={() => setToggle(!toggle)}>
-                        <NavLink to='#' className='nav-link'>Crwdworld <span style={{ paddingLeft: '10px' }}><BsChevronDown style={{ fontSize: '12px' }} /></span> </NavLink>
+                        <li className='nav-link'>Crwdworld <span style={{ paddingLeft: '10px' }}><BsChevronDown style={{ fontSize: '12px' }} /></span> </li>
 
                         {toggle ? <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
