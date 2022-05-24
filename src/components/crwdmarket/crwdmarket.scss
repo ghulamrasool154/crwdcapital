@@ -112,7 +112,7 @@
   @media screen and (max-width: 1200px) {
     .branddeals {
       h2 {
-        font-size: 20px;
+        font-size: 30px;
       }
       .leftside,
       .centerside,
@@ -127,7 +127,7 @@
     }
     .hotdeals {
       h2 {
-        font-size: 20px;
+        font-size: 30px;
       }
       .leftside {
         .backcolor {
@@ -141,6 +141,17 @@
       }
     }
   }
+
+  @media screen and (max-width: 1025px) {
+    .crwdmarket {
+      .hotdeals,
+      .branddeals,
+      .compunies {
+        padding: 0 30px;
+      }
+    }
+  }
+
   @media screen and (max-width: 993px) {
     .hotdeals {
       .leftside {
@@ -180,16 +191,6 @@
           margin: -65px 0 0px 0;
         }
       }
-    }
-  }
-}
-
-@media screen and (max-width: 1025px) {
-  .crwdmarket {
-    .hotdeals,
-    .branddeals,
-    .compunies {
-      padding: 0 30px;
     }
   }
 }

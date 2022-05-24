@@ -6,7 +6,7 @@ import Iconwidget from '../../abstructComponents/iconwidget/Iconwidget'
 import Titlediscription from '../../abstructComponents/titlediscription/Titlediscription'
 import faqimg from '../../assets/images/crwdfaq.png'
 
-import './faq.scss'
+import './faqSection.scss'
 const Faq = () => {
     return (
         <section className='faq'>

@@ -53,8 +53,6 @@
     }
   }
   @media screen and (max-width: 768px) {
-
-    
     .emailform {
       flex-direction: column;
       input {
@@ -63,6 +61,7 @@
       }
       .btn-desin {
         flex: 0 0 50px;
+        border-radius: 5px 5px 5px 5px;
       }
       .custombutton button {
         border-radius: 5px 5px 5px 5px;

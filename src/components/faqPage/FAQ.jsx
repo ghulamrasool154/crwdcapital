@@ -1,11 +1,10 @@
 import React from 'react'
-import './faq.scss'
+import './faqpage.scss'
 import Titlebar from '../../abstructComponents/titlebar/Titlebar'
 import Faq from '../../section/Faq/Faq'
 import Titlediscription from '../../abstructComponents/titlediscription/Titlediscription'
 import Iconwidget from '../../abstructComponents/iconwidget/Iconwidget'
 import Button from '../../abstructComponents/button/Button'
-import BlogSection from '../../section/blog/BlogSection'
 import Newlatter from '../../abstructComponents/newlatter/Newlatter'
 import TitleDynmic from '../../abstructComponents/titleDynamic/TitleDynmic'
 import { Posts } from '../../api/Posts';
@@ -38,11 +37,10 @@ const FAQ = () => {
                     </div>
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-12">
-
                             <div className="accordion" id="accordionExample5">
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="headingEX1">
-                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEX1" aria-expanded="false" aria-controls="collapseEX1">
+                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEX1" aria-expanded="false" aria-controls="collapseEX1">
                                             How to Invest My Money using crwdcapital Online ?
                                         </button>
                                     </h2>
@@ -91,7 +89,7 @@ const FAQ = () => {
                             <div className="accordion" id="accordionExample2">
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="headingSeven">
-                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                             How to Invest My Money using crwdcapital Online ?
                                         </button>
                                     </h2>
