@@ -45,7 +45,7 @@
     }
   }
   .FinancialNeeds {
-    padding: 40px 30px 40px 30px;
+    padding: 40px 20px 40px 20px;
 
     // .row.mobileCoulum {
     //   flex-direction: column;
@@ -59,6 +59,22 @@
 }
 
 @media screen and (max-width: 768px) {
+  .FinancialNeeds {
+    .centerbox {
+      .box {
+        .bottom {
+          .iconitem {
+            span.listicon {
+              i {
+                font-size: 25px;
+                line-height: 25px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
   .mobileCoulum {
     padding: 0;
   }
